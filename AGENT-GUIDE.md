@@ -25,6 +25,6 @@
 
 ## 边界
 
-本包提供矢量素材与说明，不包含工具代码、可编辑运营模板、完整主视觉海报或字体文件。Frontier Fusion、Future Mobility 等没有收录的 Logo 不可从现有主题改名推造。品牌与项目的真实名称以 brand.json 为准。
+本包提供矢量素材、静态主视觉与说明，不包含工具代码、可编辑运营模板或字体文件。静态主视觉索引见 assets/key-visuals/static/assets.json（其中路径相对此索引目录）；kind=key-visual、medium=static。动态主视觉和动态 Logo 尚未收录，不得将静态 SVG 当作动画。Frontier Fusion、Future Mobility 等没有收录的 Logo 不可从现有主题改名推造。品牌与项目的真实名称以 brand.json 为准。
 
 标准公开许可证尚未选定，不擅自标为 MIT、CC0 等。使用要求见 USAGE.md；使用素材不代表官方合作或背书。

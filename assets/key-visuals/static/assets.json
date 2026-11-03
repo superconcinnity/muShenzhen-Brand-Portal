@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "status": "confirmed",
+  "assets": [
+    {
+      "id": "kv-main",
+      "theme": "main",
+      "svg": {
+        "path": "svg/main.svg",
+        "bytes": 584263,
+        "sha256": "ff1bb44474e15d27be1717d17716cada26ec4bfef9609f7e2c89c34c37534142"
+      },
+      "png": {
+        "path": "png/main.png",
+        "bytes": 355963,
+        "sha256": "18bc8fc66742ed27758c62a53223812c92b5912993df1318698703eacb935ef2"
+      },
+      "viewBox": "0 0 595 842",
+      "pngSize": [
+        1190,
+        1684
+      ],
+      "fontsRequired": [
+        "Chakra Petch"
+      ],
+      "embeddedImageCount": 0,
+      "editableTextCount": 28,
+      "version": "aligned-20261103",
+      "eventYear": null,
+      "notes": [
+        "Publication version removes rasterization seams via crispEdges on rectangular fills/masks only.",
+        "Historical dates are not the current programme.",
+        "Poster logos have not been replaced with the later square-grid brand-logo revision."
+      ],
+      "renderingCorrection": {
+        "attribute": "shape-rendering",
+        "value": "crispEdges",
+        "rectangularElementsUpdated": 329
+      },
+      "kind": "key-visual",
+      "medium": "static"
+    },
+    {
+      "id": "kv-machines",
+      "theme": "machines",
+      "svg": {
+        "path": "svg/machines.svg",
+        "bytes": 1850083,
+        "sha256": "928f2c153079cff9da3be9a77cc00c33c0e7207a03d1a2a7960adf251b2fc633"
+      },
+      "png": {
+        "path": "png/machines.png",
+        "bytes": 304090,
+        "sha256": "560c026d0bd2378b860bff1a56219c876694028d8ce3e26d7a9610e84a5bc453"
+      },
+      "viewBox": "0 0 595 842",
+      "pngSize": [
+        1190,
+        1684
+      ],
+      "fontsRequired": [
+        "Chakra Petch",
+        "IBM Plex Sans SC"
+      ],
+      "embeddedImageCount": 1,
+      "editableTextCount": 8,
+      "version": "aligned-20261103",
+      "eventYear": null,
+      "notes": [
+        "Publication version removes rasterization seams via crispEdges on rectangular fills/masks only.",
+        "Historical dates are not the current programme.",
+        "Poster logos have not been replaced with the later square-grid brand-logo revision."
+      ],
+      "renderingCorrection": {
+        "attribute": "shape-rendering",
+        "value": "crispEdges",
+        "rectangularElementsUpdated": 5130
+      },
+      "kind": "key-visual",
+      "medium": "static"
+    },
+    {
+      "id": "kv-life",
+      "theme": "life",
+      "svg": {
+        "path": "svg/life.svg",
+        "bytes": 1151808,
+        "sha256": "a014c01b7fab3b00ce2e560393ccbde47e6442ed9ae388cad3d3222925c36059"
+      },
+      "png": {
+        "path": "png/life.png",
+        "bytes": 808333,
+        "sha256": "b69233b602872c6d102d3d35eda80186657da3be77fc54f4374688ac3affdbe3"
+      },
+      "viewBox": "0 0 595 842",
+      "pngSize": [
+        1190,
+        1684
+      ],
+      "fontsRequired": [
+        "BL Melody Mono",
+        "Chakra Petch",
+        "IBM Plex Sans SC"
+      ],
+      "embeddedImageCount": 1,
+      "editableTextCount": 16,
+      "version": "aligned-20261103",
+      "eventYear": null,
+      "notes": [
+        "Publication version removes rasterization seams via crispEdges on rectangular fills/masks only.",
+        "Historical dates are not the current programme.",
+        "Poster logos have not been replaced with the later square-grid brand-logo revision."
+      ],
+      "renderingCorrection": {
+        "attribute": "shape-rendering",
+        "value": "crispEdges",
+        "rectangularElementsUpdated": 3476
+      },
+      "kind": "key-visual",
+      "medium": "static"
+    },
+    {
+      "id": "kv-intelligence",
+      "theme": "intelligence",
+      "svg": {
+        "path": "svg/intelligence.svg",
+        "bytes": 2148377,
+        "sha256": "83b50d5c60a0dd2926e078f16d68a049a567be35269ad21ccdc955689f84dd5c"
+      },
+      "png": {
+        "path": "png/intelligence.png",
+        "bytes": 842731,
+        "sha256": "e9d6695d2d7807db62ba3ac20d9dbbd294124b00aa470264bc8691e0adc0e309"
+      },
+      "viewBox": "0 0 595 842",
+      "pngSize": [
+        1190,
+        1684
+      ],
+      "fontsRequired": [
+        "Chakra Petch",
+        "IBM Plex Sans SC"
+      ],
+      "embeddedImageCount": 1,
+      "editableTextCount": 8,
+      "version": "aligned-20261103",
+      "eventYear": null,
+      "notes": [
+        "Publication version removes rasterization seams via crispEdges on rectangular fills/masks only.",
+        "Historical dates are not the current programme.",
+        "Poster logos have not been replaced with the later square-grid brand-logo revision."
+      ],
+      "renderingCorrection": {
+        "attribute": "shape-rendering",
+        "value": "crispEdges",
+        "rectangularElementsUpdated": 4208
+      },
+      "kind": "key-visual",
+      "medium": "static"
+    },
+    {
+      "id": "kv-human-flourishing-portrait",
+      "theme": "human-flourishing",
+      "orientation": "portrait",
+      "image": {
+        "path": "images/human-flourishing-portrait.png",
+        "bytes": 419809,
+        "sha256": "0622d37587294e2c56554a9b5ca8df88381f4e33b98fe80a72ffaaf7d51d28f2"
+      },
+      "format": "png",
+      "imageSize": [
+        2481,
+        3508
+      ],
+      "editable": false,
+      "fontsRequired": [],
+      "version": "supplied-20261103",
+      "eventYear": 2026,
+      "notes": [
+        "Original supplied raster image, preserved without resizing or recoloring.",
+        "No editable vector source supplied for this poster."
+      ],
+      "kind": "key-visual",
+      "medium": "static"
+    },
+    {
+      "id": "kv-garage-portrait",
+      "theme": "garage",
+      "orientation": "portrait",
+      "image": {
+        "path": "images/garage-portrait.jpg",
+        "bytes": 3161813,
+        "sha256": "8c3dc60a9b45f350046637ac1a995e01594c617b36f4fbc9087d14196fcc4cb7"
+      },
+      "format": "jpg",
+      "imageSize": [
+        3509,
+        4961
+      ],
+      "editable": false,
+      "fontsRequired": [],
+      "version": "supplied-20261103",
+      "eventYear": null,
+      "notes": [
+        "Original supplied raster image, preserved without resizing or recoloring.",
+        "No editable vector source supplied for this poster."
+      ],
+      "kind": "key-visual",
+      "medium": "static"
+    },
+    {
+      "id": "kv-garage-landscape",
+      "theme": "garage",
+      "orientation": "landscape",
+      "image": {
+        "path": "images/garage-landscape.jpg",
+        "bytes": 1321611,
+        "sha256": "5372cce6e27326357fa2232c1844cd45e662c7e38bf3d18bd8a394376ff6b0a6"
+      },
+      "format": "jpg",
+      "imageSize": [
+        3510,
+        1494
+      ],
+      "editable": false,
+      "fontsRequired": [],
+      "version": "supplied-20261103",
+      "eventYear": null,
+      "notes": [
+        "Original supplied raster image, preserved without resizing or recoloring.",
+        "No editable vector source supplied for this poster."
+      ],
+      "kind": "key-visual",
+      "medium": "static"
+    }
+  ],
+  "fontsBundled": false,
+  "usage": "Brand elements require mushenzhen credit. Embedded photos are not automatically covered by that permission.",
+  "kind": "key-visual",
+  "medium": "static"
+}

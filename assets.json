@@ -454,5 +454,15 @@
       "sha256": "b8817555deab3de4ce0a0ae663c9d1190fcaf497183a2995ee91efac9c2d4485",
       "bytes": 4722
     }
+  ],
+  "collections": [
+    {
+      "id": "key-visuals-static",
+      "kind": "key-visual",
+      "medium": "static",
+      "index": "assets/key-visuals/static/assets.json",
+      "readme": "assets/key-visuals/static/README.md",
+      "assetCount": 7
+    }
   ]
 }

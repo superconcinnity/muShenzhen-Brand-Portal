@@ -32,7 +32,11 @@ a city for makers
 | Life：斜线、生命符号、生、命 | [下载](assets/elements/musz_life.svg) |
 | Intelligence：斜线、星号、智、能 | [下载](assets/elements/musz_intelligence.svg) |
 
-完整主视觉海报和可编辑运营模板暂未包含在此版本中。
+### 主视觉
+
+[静态主视觉：预览与下载](assets/key-visuals/static/README.md) — 总主视觉、Machines、Life、Intelligence、Human Flourishing，以及 Garage 竖版与横版，共 7 张。PNG/JPG 提供固定外观，前四张另附静态 SVG。
+
+[主视觉分类](assets/key-visuals/README.md)：当前为静态版本，后续动态主视觉归入 `assets/key-visuals/motion/`；动态 Logo 归入 `assets/logos/motion/`。动态资产与运营模板尚未收录。
 
 ## 2. 阅读规范
 
@@ -57,6 +61,6 @@ a city for makers
 
 **视觉元素和模板允许商用，必须注明 mushenzhen。**可在作品页脚、随图发布文案或网页 credits 中署名；具体建议见 [使用说明](USAGE.md)。Logo 遵循品牌指南，不因使用素材而暗示官方背书。
 
-本包不附带字体文件、照片或软件代码，不能将其授权推及这些内容。尚未指定标准公开许可证，使用要求以 USAGE.md 为准。
+本包不附带字体文件或软件代码。海报包含的照片与第三方素材不自动适用视觉元素与模板的授权。尚未指定标准公开许可证，使用要求以 USAGE.md 为准。
 
 版本 0.1。年度活动安排不在本包中，请向主办方核对。
