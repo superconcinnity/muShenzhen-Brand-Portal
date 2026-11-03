@@ -164,8 +164,8 @@
       "orientation": "portrait",
       "image": {
         "path": "images/human-flourishing-portrait.png",
-        "bytes": 419809,
-        "sha256": "0622d37587294e2c56554a9b5ca8df88381f4e33b98fe80a72ffaaf7d51d28f2"
+        "bytes": 320221,
+        "sha256": "bac535ecbcb59bd4a8293e84615d773c80de307062c38fada9953df73285d8bf"
       },
       "format": "png",
       "imageSize": [
@@ -177,11 +177,13 @@
       "version": "supplied-20261103",
       "eventYear": 2026,
       "notes": [
-        "Original supplied raster image, preserved without resizing or recoloring.",
+        "Supplied raster artwork composited on a solid white background; original dimensions retained.",
         "No editable vector source supplied for this poster."
       ],
       "kind": "key-visual",
-      "medium": "static"
+      "medium": "static",
+      "background": "#FFFFFF",
+      "hasAlpha": false
     },
     {
       "id": "kv-garage-portrait",
