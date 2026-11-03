@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "colorSpace": "sRGB",
+  "printSpecifications": null,
+  "note": "Theme role names are editorial labels. Source-observed values are extracted from current vector templates, not photos.",
+  "colors": [
+    {
+      "id": "brand-green",
+      "hex": "#DFFF2F",
+      "rgb": [
+        223,
+        255,
+        47
+      ],
+      "status": "confirmed",
+      "scope": [
+        "main",
+        "machines",
+        "life",
+        "intelligence"
+      ]
+    },
+    {
+      "id": "ink",
+      "hex": "#212121",
+      "rgb": [
+        33,
+        33,
+        33
+      ],
+      "status": "source-observed",
+      "scope": [
+        "main",
+        "machines",
+        "life",
+        "intelligence"
+      ]
+    },
+    {
+      "id": "logo-black",
+      "hex": "#000000",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "status": "confirmed",
+      "scope": [
+        "logo"
+      ]
+    },
+    {
+      "id": "white",
+      "hex": "#FFFFFF",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "status": "confirmed",
+      "scope": [
+        "logo"
+      ]
+    },
+    {
+      "id": "main-purple",
+      "hex": "#5456BE",
+      "rgb": [
+        84,
+        86,
+        190
+      ],
+      "status": "source-observed",
+      "scope": [
+        "main"
+      ]
+    },
+    {
+      "id": "main-gray",
+      "hex": "#ACC0BF",
+      "rgb": [
+        172,
+        192,
+        191
+      ],
+      "status": "source-observed",
+      "scope": [
+        "main"
+      ]
+    },
+    {
+      "id": "life-blue",
+      "hex": "#00B3FA",
+      "rgb": [
+        0,
+        179,
+        250
+      ],
+      "status": "source-observed",
+      "scope": [
+        "life"
+      ]
+    },
+    {
+      "id": "shared-offwhite",
+      "hex": "#FAFAED",
+      "rgb": [
+        250,
+        250,
+        237
+      ],
+      "status": "confirmed",
+      "scope": [
+        "machines",
+        "life",
+        "intelligence"
+      ]
+    },
+    {
+      "id": "intelligence-pink",
+      "hex": "#E6A0E6",
+      "rgb": [
+        230,
+        160,
+        230
+      ],
+      "status": "source-observed",
+      "scope": [
+        "intelligence"
+      ]
+    },
+    {
+      "id": "machines-brown",
+      "hex": "#795E4B",
+      "rgb": [
+        121,
+        94,
+        75
+      ],
+      "status": "source-observed",
+      "scope": [
+        "machines"
+      ]
+    }
+  ]
+}

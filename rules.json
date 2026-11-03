@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "status": "reviewed-guide",
+  "rules": [
+    {
+      "id": "brand-naming",
+      "status": "confirmed",
+      "scope": "brand-copy",
+      "instruction": "Use lowercase mushenzhen and slogan a city for makers. The Mu is the parent community; Garage, Frontier Fusion and Human Flourishing are the three paths."
+    },
+    {
+      "id": "commercial-attribution",
+      "status": "confirmed",
+      "scope": "visual-elements-and-templates",
+      "instruction": "Commercial use is allowed; credit must mention mushenzhen. Suggested wording: 视觉素材来源：mushenzhen. No standard public license has been selected. This does not cover third-party fonts, photos or tool code."
+    },
+    {
+      "id": "canonical-full-logo",
+      "status": "confirmed",
+      "scope": "full-logos",
+      "instruction": "Use assets/logos/full canonical variants; one letter or composite symbol per square cell, 3 rows, cell size 50 source units. Scale the entire approved composition uniformly; do not reflow it."
+    },
+    {
+      "id": "core-green",
+      "status": "confirmed",
+      "scope": "official-default-color",
+      "instruction": "Use #DFFF2F for canonical fluorescent green.",
+      "parameters": {
+        "hex": "#DFFF2F"
+      }
+    },
+    {
+      "id": "logo-variants",
+      "status": "confirmed",
+      "scope": "logos",
+      "instruction": "Supply black, white and core-green variants.",
+      "parameters": {
+        "colors": [
+          "#000000",
+          "#FFFFFF",
+          "#DFFF2F"
+        ]
+      }
+    },
+    {
+      "id": "creative-freedom",
+      "status": "confirmed",
+      "scope": "creative-extensions",
+      "instruction": "Partner colors and compositions may vary while retaining recognizable brand visual language. This does not automatically authorize arbitrary recoloring of formal logos."
+    },
+    {
+      "id": "exact-logo",
+      "status": "recommendation",
+      "scope": "logos",
+      "instruction": "Use supplied SVG geometry, scale uniformly, do not retype the wordmark, distort, add effects or rearrange internal parts."
+    },
+    {
+      "id": "clear-space",
+      "status": "recommendation",
+      "scope": "transparent-logos",
+      "instruction": "Full logos: H is the three-row construction height (3 cells). Simple logos: H is visible artwork height. Reserve clear space on all sides; ",
+      "parameters": {
+        "fullHeightFraction": 0.25,
+        "simpleHeightFraction": 0.5
+      }
+    },
+    {
+      "id": "minimum-screen-width",
+      "status": "recommendation",
+      "scope": "transparent-logos",
+      "instruction": "Conservative starting points from raster screen-size study; verify final output. No print minimum established.",
+      "parameters": {
+        "unit": "CSS px",
+        "fullCell": 25,
+        "fullByFamily": {
+          "mushenzhen": 200,
+          "garage": 200,
+          "life": 200,
+          "machines": 200,
+          "intelligence": 225,
+          "human-flourishing": 250
+        },
+        "simpleDefault": 160,
+        "simpleOverrides": {
+          "intelligence": 200,
+          "human-flourishing": 240
+        }
+      }
+    },
+    {
+      "id": "partner-lockup",
+      "status": "recommendation",
+      "scope": "co-branding",
+      "instruction": "Balance visible weight and align optically. Gap must accommodate both clear spaces. Do not impose mushenzhen dominance for equal partnerships.",
+      "parameters": {
+        "gap": "clearSpaceA + clearSpaceB"
+      }
+    },
+    {
+      "id": "background-contrast",
+      "status": "recommendation",
+      "scope": "logos",
+      "instruction": "Prefer black on light, white on dark, green on brand ink. Avoid green on white and busy image interference. This is not an accessibility certification."
+    },
+    {
+      "id": "grid-rhythm",
+      "status": "recommendation",
+      "scope": "creative-extensions",
+      "instruction": "Use consistent cell scale, deliberate runs and pauses, an independent element layer and clear negative-space structure. Do not stretch slash widths independently."
+    }
+  ],
+  "version": "0.1"
+}

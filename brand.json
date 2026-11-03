@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "source": "mushenzhen brand narrative",
+  "name": "mushenzhen",
+  "slogan": "a city for makers",
+  "parentBrand": "The Mu",
+  "positioning": "A Maker City using Shenzhen as a field for real-world experimentation.",
+  "identity": "我们是连接。",
+  "concepts": [
+    "磁场",
+    "显形",
+    "试验田",
+    "连接"
+  ],
+  "paths": [
+    {
+      "name": "Garage",
+      "purpose": "From idea to working product",
+      "tone": [
+        "fast",
+        "concrete",
+        "outcome-focused"
+      ]
+    },
+    {
+      "name": "Frontier Fusion",
+      "purpose": "Cross-disciplinary frontier theme weeks",
+      "tone": [
+        "open",
+        "curious",
+        "collaborative"
+      ]
+    },
+    {
+      "name": "Human Flourishing",
+      "purpose": "Why build, and for whom?",
+      "tone": [
+        "warm",
+        "restrained",
+        "questioning"
+      ]
+    }
+  ],
+  "naming": {
+    "canonical": "mushenzhen",
+    "avoid": [
+      "muShenzhen",
+      "mu Shenzhen",
+      "Mushenzhen",
+      "muShenZhen"
+    ],
+    "logoArtwork": "Use approved vectors, not retyped substitutes."
+  },
+  "usage": {
+    "scope": [
+      "visual-elements",
+      "templates"
+    ],
+    "commercialUse": true,
+    "attributionRequired": true,
+    "requiredName": "mushenzhen",
+    "suggestedCredit": "视觉素材来源：mushenzhen",
+    "standardLicense": null
+  },
+  "programme": {
+    "status": "not-included",
+    "instruction": "Confirm event year and current programme with the organizer; do not infer dates from historical assets."
+  },
+  "languageGuide": "BRAND-STORY.md",
+  "usagePolicy": "USAGE.md"
+}

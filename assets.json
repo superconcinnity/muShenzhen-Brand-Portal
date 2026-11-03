@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "version": "0.1",
+  "assets": [
+    {
+      "id": "mushenzhen-full",
+      "family": "mushenzhen",
+      "kind": "logo",
+      "form": "full",
+      "variants": {
+        "black": {
+          "color": "#000000",
+          "sha256": "b90bd497c9f88049480c871390dc06a971fff5ed473519ccbe0e6a6cd9ba0c17",
+          "bytes": 7654,
+          "viewBox": "0 0 400 150",
+          "width": 400.0,
+          "height": 150.0,
+          "path": "assets/logos/full/mushenzhen-full-black.svg"
+        },
+        "white": {
+          "color": "#FFFFFF",
+          "sha256": "225824f8348e6209ffcc67e31235761bf3f1ec4ca3c1574598689d1cc8466842",
+          "bytes": 7654,
+          "viewBox": "0 0 400 150",
+          "width": 400.0,
+          "height": 150.0,
+          "path": "assets/logos/full/mushenzhen-full-white.svg"
+        },
+        "green": {
+          "color": "#DFFF2F",
+          "sha256": "5985c96a3a88a46ad9934f8bdceeec18f85f024c17383687df0356173f9734bb",
+          "bytes": 7654,
+          "viewBox": "0 0 400 150",
+          "width": 400.0,
+          "height": 150.0,
+          "path": "assets/logos/full/mushenzhen-full-green.svg"
+        }
+      }
+    },
+    {
+      "id": "mushenzhen-simple",
+      "family": "mushenzhen",
+      "kind": "logo",
+      "form": "simple",
+      "variants": {
+        "black": {
+          "color": "#000000",
+          "sha256": "94134480b04fa9c921931867c2a5ff39847e1bf67aa7814fa3d21f1508e75d04",
+          "bytes": 3136,
+          "viewBox": "0 0 331 41",
+          "width": 331.0,
+          "height": 41.0,
+          "path": "assets/logos/simple/mushenzhen-simple-black.svg"
+        },
+        "white": {
+          "color": "#FFFFFF",
+          "sha256": "e9719e60fb6a971cb6db978bbec05289c7ff4ad8d6336b7c98bb7fdb0af3cdd7",
+          "bytes": 3136,
+          "viewBox": "0 0 331 41",
+          "width": 331.0,
+          "height": 41.0,
+          "path": "assets/logos/simple/mushenzhen-simple-white.svg"
+        },
+        "green": {
+          "color": "#DFFF2F",
+          "sha256": "09978e449bb1103fd8a115ea6a87504289138724210862c56f427c45f232de5b",
+          "bytes": 3136,
+          "viewBox": "0 0 331 41",
+          "width": 331.0,
+          "height": 41.0,
+          "path": "assets/logos/simple/mushenzhen-simple-green.svg"
+        }
+      }
+    },
+    {
+      "id": "garage-full",
+      "family": "garage",
+      "kind": "logo",
+      "form": "full",
+      "variants": {
+        "black": {
+          "color": "#000000",
+          "sha256": "f8cc1918c0ca2432e455254a3080fe4bb3e623631f60874210ac15651743679a",
+          "bytes": 9303,
+          "viewBox": "0 0 400 150",
+          "width": 400.0,
+          "height": 150.0,
+          "path": "assets/logos/full/garage-full-black.svg"
+        },
+        "white": {
+          "color": "#FFFFFF",
+          "sha256": "2d39f62ce191f3918243ebf2c724e6605ca3f9d8d2dbc56c45c52479a07e1bf5",
+          "bytes": 9303,
+          "viewBox": "0 0 400 150",
+          "width": 400.0,
+          "height": 150.0,
+          "path": "assets/logos/full/garage-full-white.svg"
+        },
+        "green": {
+          "color": "#DFFF2F",
+          "sha256": "124d2885d10ccbfe17add20186e241f6a2651da4c0806988bef4104a03252a5e",
+          "bytes": 9303,
+          "viewBox": "0 0 400 150",
+          "width": 400.0,
+          "height": 150.0,
+          "path": "assets/logos/full/garage-full-green.svg"
+        }
+      }
+    },
+    {
+      "id": "garage-simple",
+      "family": "garage",
+      "kind": "logo",
+      "form": "simple",
+      "variants": {
+        "black": {
+          "color": "#000000",
+          "sha256": "d2c3579dc0f5e4c95e965c481b3079a971ec718dddb25e6531b6fe80eb73101d",
+          "bytes": 4753,
+          "viewBox": "0 0 203 47",
+          "width": 203.0,
+          "height": 47.0,
+          "path": "assets/logos/simple/garage-simple-black.svg"
+        },
+        "white": {
+          "color": "#FFFFFF",
+          "sha256": "5924f8b66cf568940ba64ea700cb89742fa388ecbbba5ee3cc69259b975c4f21",
+          "bytes": 4753,
+          "viewBox": "0 0 203 47",
+          "width": 203.0,
+          "height": 47.0,
+          "path": "assets/logos/simple/garage-simple-white.svg"
+        },
+        "green": {
+          "color": "#DFFF2F",
+          "sha256": "243e569eb78913e690408bd33b31ea4e560210b96cc1b3e4aa4a94aff6fa060a",
+          "bytes": 4753,
+          "viewBox": "0 0 203 47",
+          "width": 203.0,
+          "height": 47.0,
+          "path": "assets/logos/simple/garage-simple-green.svg"
+        }
+      }
+    },
+    {
+      "id": "intelligence-full",
+      "family": "intelligence",
+      "kind": "logo",
+      "form": "full",
+      "variants": {
+        "black": {
+          "color": "#000000",
+          "sha256": "b1e47a8eed48adfd1323334318596708c9e6d3ba984993b580ef2dffbe91fe1c",
+          "bytes": 8945,
+          "viewBox": "0 0 450 150",
+          "width": 450.0,
+          "height": 150.0,
+          "path": "assets/logos/full/intelligence-full-black.svg"
+        },
+        "white": {
+          "color": "#FFFFFF",
+          "sha256": "0e0ef5d7cb56195a0ce43f09893f322ba091533581e6f8aef12540f5e718af33",
+          "bytes": 8945,
+          "viewBox": "0 0 450 150",
+          "width": 450.0,
+          "height": 150.0,
+          "path": "assets/logos/full/intelligence-full-white.svg"
+        },
+        "green": {
+          "color": "#DFFF2F",
+          "sha256": "db1a6c449ab9846a2152bdeb6f8059105392a170cb85440b0e1f1de6aa09ab84",
+          "bytes": 8945,
+          "viewBox": "0 0 450 150",
+          "width": 450.0,
+          "height": 150.0,
+          "path": "assets/logos/full/intelligence-full-green.svg"
+        }
+      }
+    },
+    {
+      "id": "intelligence-simple",
+      "family": "intelligence",
+      "kind": "logo",
+      "form": "simple",
+      "variants": {
+        "black": {
+          "color": "#000000",
+          "sha256": "30a3575f34e563e808edd5c611d838342f0576e76d72a9ff01ab7ea28f66475e",
+          "bytes": 5167,
+          "viewBox": "0 0 406 52",
+          "width": 406.0,
+          "height": 52.0,
+          "path": "assets/logos/simple/intelligence-simple-black.svg"
+        },
+        "white": {
+          "color": "#FFFFFF",
+          "sha256": "d16e695f9fe62ae3e27895b4b121588a2bd6d484069625732e66cf841f9cbbc1",
+          "bytes": 5167,
+          "viewBox": "0 0 406 52",
+          "width": 406.0,
+          "height": 52.0,
+          "path": "assets/logos/simple/intelligence-simple-white.svg"
+        },
+        "green": {
+          "color": "#DFFF2F",
+          "sha256": "c556561043dd15ffec9f27d3977b897136e74da23975b82ea66931afa3c97ac1",
+          "bytes": 5167,
+          "viewBox": "0 0 406 52",
+          "width": 406.0,
+          "height": 52.0,
+          "path": "assets/logos/simple/intelligence-simple-green.svg"
+        }
+      }
+    },
+    {
+      "id": "life-full",
+      "family": "life",
+      "kind": "logo",
+      "form": "full",
+      "variants": {
+        "black": {
+          "color": "#000000",
+          "sha256": "cefd2f519becb6188979e901c9dabc4285ee619e132bb6d6c490876ca37779f6",
+          "bytes": 6751,
+          "viewBox": "0 0 400 150",
+          "width": 400.0,
+          "height": 150.0,
+          "path": "assets/logos/full/life-full-black.svg"
+        },
+        "white": {
+          "color": "#FFFFFF",
+          "sha256": "9d8022e04f893850a77a384a6609a157c47b7e98aaa5d4e2ac08bc094020b40f",
+          "bytes": 6751,
+          "viewBox": "0 0 400 150",
+          "width": 400.0,
+          "height": 150.0,
+          "path": "assets/logos/full/life-full-white.svg"
+        },
+        "green": {
+          "color": "#DFFF2F",
+          "sha256": "965eb2bbfc7d7f772e671c168a80ad26abccf2595ae7d1dd46b7cb0caa79a2db",
+          "bytes": 6751,
+          "viewBox": "0 0 400 150",
+          "width": 400.0,
+          "height": 150.0,
+          "path": "assets/logos/full/life-full-green.svg"
+        }
+      }
+    },
+    {
+      "id": "life-simple",
+      "family": "life",
+      "kind": "logo",
+      "form": "simple",
+      "variants": {
+        "black": {
+          "color": "#000000",
+          "sha256": "b076421654ff2bcb8acd9996743a85b16b7514f7ad43ce0b22fdb8af425eaa04",
+          "bytes": 3248,
+          "viewBox": "0 0 135 42",
+          "width": 135.0,
+          "height": 42.0,
+          "path": "assets/logos/simple/life-simple-black.svg"
+        },
+        "white": {
+          "color": "#FFFFFF",
+          "sha256": "7ffcafd2635fccdab6b828a04eccfdc379ed2932de92a81965920b706a699b2b",
+          "bytes": 3248,
+          "viewBox": "0 0 135 42",
+          "width": 135.0,
+          "height": 42.0,
+          "path": "assets/logos/simple/life-simple-white.svg"
+        },
+        "green": {
+          "color": "#DFFF2F",
+          "sha256": "902d91d4fb7816e7230d549b95b615eedebd7010ffe6cbc507ac6a85a1945169",
+          "bytes": 3248,
+          "viewBox": "0 0 135 42",
+          "width": 135.0,
+          "height": 42.0,
+          "path": "assets/logos/simple/life-simple-green.svg"
+        }
+      }
+    },
+    {
+      "id": "machines-full",
+      "family": "machines",
+      "kind": "logo",
+      "form": "full",
+      "variants": {
+        "black": {
+          "color": "#000000",
+          "sha256": "5905087f317bea4281190477380ce3e3d02a9f7185f9d5d8f0037a17ed55678f",
+          "bytes": 8822,
+          "viewBox": "0 0 400 150",
+          "width": 400.0,
+          "height": 150.0,
+          "path": "assets/logos/full/machines-full-black.svg"
+        },
+        "white": {
+          "color": "#FFFFFF",
+          "sha256": "e66cbacf544231c9ed037d6033abd84b3223f7c3dcc1942e1972c2d6259453b0",
+          "bytes": 8822,
+          "viewBox": "0 0 400 150",
+          "width": 400.0,
+          "height": 150.0,
+          "path": "assets/logos/full/machines-full-white.svg"
+        },
+        "green": {
+          "color": "#DFFF2F",
+          "sha256": "9bcdc00dca38d663615ef42fafd339a4a362dc5de9f5d2f9fe7bcd61e61de25b",
+          "bytes": 8822,
+          "viewBox": "0 0 400 150",
+          "width": 400.0,
+          "height": 150.0,
+          "path": "assets/logos/full/machines-full-green.svg"
+        }
+      }
+    },
+    {
+      "id": "machines-simple",
+      "family": "machines",
+      "kind": "logo",
+      "form": "simple",
+      "variants": {
+        "black": {
+          "color": "#000000",
+          "sha256": "7239dc4ff8eb4a4ece639f166eae8bfa1bcf5f5f75d9282e8f488418627820a7",
+          "bytes": 5602,
+          "viewBox": "0 0 263 41",
+          "width": 263.0,
+          "height": 41.0,
+          "path": "assets/logos/simple/machines-simple-black.svg"
+        },
+        "white": {
+          "color": "#FFFFFF",
+          "sha256": "ae0081531d9647c36a3962b455cb00c9149f250a48123089105a310b4fb6bb00",
+          "bytes": 5602,
+          "viewBox": "0 0 263 41",
+          "width": 263.0,
+          "height": 41.0,
+          "path": "assets/logos/simple/machines-simple-white.svg"
+        },
+        "green": {
+          "color": "#DFFF2F",
+          "sha256": "0022452d80e952c4cd876a72b1968f2ee980156230f7a8dcc8cd505f21e72f7d",
+          "bytes": 5602,
+          "viewBox": "0 0 263 41",
+          "width": 263.0,
+          "height": 41.0,
+          "path": "assets/logos/simple/machines-simple-green.svg"
+        }
+      }
+    },
+    {
+      "id": "human-flourishing-full",
+      "family": "human-flourishing",
+      "kind": "logo",
+      "form": "full",
+      "variants": {
+        "black": {
+          "color": "#000000",
+          "sha256": "a3a8b8d3437f3d36904d218fe08eff254f6a7a9f074e13bb24263203d527ed59",
+          "bytes": 12988,
+          "viewBox": "0 0 500 150",
+          "width": 500.0,
+          "height": 150.0,
+          "path": "assets/logos/full/human-flourishing-full-black.svg"
+        },
+        "white": {
+          "color": "#FFFFFF",
+          "sha256": "e089930be8f64c57e1e9d7d3ef8b48b815aa474d0713d0a8a1fe83f21ac3871d",
+          "bytes": 12988,
+          "viewBox": "0 0 500 150",
+          "width": 500.0,
+          "height": 150.0,
+          "path": "assets/logos/full/human-flourishing-full-white.svg"
+        },
+        "green": {
+          "color": "#DFFF2F",
+          "sha256": "aed8f33c92a583286de1580e3f86cbac657d6dd37655eb525339b82c5c85c199",
+          "bytes": 12988,
+          "viewBox": "0 0 500 150",
+          "width": 500.0,
+          "height": 150.0,
+          "path": "assets/logos/full/human-flourishing-full-green.svg"
+        }
+      }
+    },
+    {
+      "id": "human-flourishing-simple",
+      "family": "human-flourishing",
+      "kind": "logo",
+      "form": "simple",
+      "variants": {
+        "black": {
+          "color": "#000000",
+          "sha256": "739b654798835dcd2b724c337a038c92064c62bdda7cd3b8f9ef63bc2433d26c",
+          "bytes": 9162,
+          "viewBox": "0 0 575 52",
+          "width": 575.0,
+          "height": 52.0,
+          "path": "assets/logos/simple/human-flourishing-simple-black.svg"
+        },
+        "white": {
+          "color": "#FFFFFF",
+          "sha256": "ef864d7b34e139e005acd526f8364e9299bdbf4cf6e3026098066e0c0a3d8abd",
+          "bytes": 9162,
+          "viewBox": "0 0 575 52",
+          "width": 575.0,
+          "height": 52.0,
+          "path": "assets/logos/simple/human-flourishing-simple-white.svg"
+        },
+        "green": {
+          "color": "#DFFF2F",
+          "sha256": "717d75870370378c49b670b5ea96998897d5050757ee836395c021ea66195a8d",
+          "bytes": 9162,
+          "viewBox": "0 0 575 52",
+          "width": 575.0,
+          "height": 52.0,
+          "path": "assets/logos/simple/human-flourishing-simple-green.svg"
+        }
+      }
+    },
+    {
+      "id": "intelligence-elements",
+      "family": "intelligence",
+      "kind": "element-strip",
+      "path": "assets/elements/musz_intelligence.svg",
+      "sha256": "fbf6bb38b2eeb9a50d83c46f8dee92517a4f15fff9d4634004d58ceefaf513b3",
+      "bytes": 4485
+    },
+    {
+      "id": "machines-elements",
+      "family": "machines",
+      "kind": "element-strip",
+      "path": "assets/elements/musz_machines.svg",
+      "sha256": "cf821d4c53c8ed6c5f05fd3d9b376b831084e905508f808bb49c777176fe17d4",
+      "bytes": 6647
+    },
+    {
+      "id": "life-elements",
+      "family": "life",
+      "kind": "element-strip",
+      "path": "assets/elements/musz_life.svg",
+      "sha256": "07310c9c36e8be720d18921de1c634520b9b433273726cc9379d740f2f503f8f",
+      "bytes": 3497
+    },
+    {
+      "id": "main_kv-elements",
+      "family": "main_kv",
+      "kind": "element-strip",
+      "path": "assets/elements/musz_main_kv.svg",
+      "sha256": "b8817555deab3de4ce0a0ae663c9d1190fcaf497183a2995ee91efac9c2d4485",
+      "bytes": 4722
+    }
+  ]
+}
