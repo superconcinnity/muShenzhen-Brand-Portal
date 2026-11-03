@@ -1,4 +1,4 @@
-# mushenzhen
+# muShenzhen Brand Portal
 
 a city for makers
 
