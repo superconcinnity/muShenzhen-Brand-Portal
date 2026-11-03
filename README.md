@@ -6,7 +6,34 @@ a city for makers
 
 这里提供 mushenzhen 的标准 Logo、视觉元素、品牌指南与 Agent 可读数据。视觉元素和模板允许商用，**使用时必须提到 mushenzhen**。例如：视觉素材来源：mushenzhen。完整说明见 [USAGE.md](USAGE.md)。
 
-## 1. 下载素材
+## 静态主视觉海报
+
+点击图片查看原图，下方链接可打开对应文件。共 7 张静态海报；前四张另附可编辑的静态 SVG。
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top"><a href="assets/key-visuals/static/png/main.png"><img src="assets/key-visuals/static/png/main.png" alt="总主视觉静态主视觉海报" width="280"></a><br><strong>总主视觉</strong><br><a href="assets/key-visuals/static/png/main.png">PNG 原图</a> · <a href="assets/key-visuals/static/svg/main.svg">SVG</a></td>
+<td width="33%" align="center" valign="top"><a href="assets/key-visuals/static/png/machines.png"><img src="assets/key-visuals/static/png/machines.png" alt="Machines静态主视觉海报" width="280"></a><br><strong>Machines</strong><br><a href="assets/key-visuals/static/png/machines.png">PNG 原图</a> · <a href="assets/key-visuals/static/svg/machines.svg">SVG</a></td>
+<td width="33%" align="center" valign="top"><a href="assets/key-visuals/static/png/life.png"><img src="assets/key-visuals/static/png/life.png" alt="Life静态主视觉海报" width="280"></a><br><strong>Life</strong><br><a href="assets/key-visuals/static/png/life.png">PNG 原图</a> · <a href="assets/key-visuals/static/svg/life.svg">SVG</a></td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="top"><a href="assets/key-visuals/static/png/intelligence.png"><img src="assets/key-visuals/static/png/intelligence.png" alt="Intelligence静态主视觉海报" width="280"></a><br><strong>Intelligence</strong><br><a href="assets/key-visuals/static/png/intelligence.png">PNG 原图</a> · <a href="assets/key-visuals/static/svg/intelligence.svg">SVG</a></td>
+<td width="33%" align="center" valign="top"><a href="assets/key-visuals/static/images/human-flourishing-portrait.png"><img src="assets/key-visuals/static/images/human-flourishing-portrait.png" alt="Human Flourishing静态主视觉海报" width="280"></a><br><strong>Human Flourishing</strong><br><a href="assets/key-visuals/static/images/human-flourishing-portrait.png">PNG 原图</a></td>
+<td width="33%" align="center" valign="top"><a href="assets/key-visuals/static/images/garage-portrait.jpg"><img src="assets/key-visuals/static/images/garage-portrait.jpg" alt="Garage · 竖版静态主视觉海报" width="280"></a><br><strong>Garage · 竖版</strong><br><a href="assets/key-visuals/static/images/garage-portrait.jpg">JPG 原图</a></td>
+</tr>
+</table>
+
+### Garage · 横版
+
+[![Garage 横版静态主视觉](assets/key-visuals/static/images/garage-landscape.jpg)](assets/key-visuals/static/images/garage-landscape.jpg)
+
+[JPG 原图](assets/key-visuals/static/images/garage-landscape.jpg)
+
+[全部静态主视觉与字体说明](assets/key-visuals/static/README.md) · [主视觉分类](assets/key-visuals/README.md)
+
+当前展示的是**静态版本**。后续动态主视觉与动态 Logo 将分别收录；动态资产和运营模板尚未发布。
+
+## 1. 下载 Logo 与视觉元素
 
 36 个透明底 Logo + 4 组视觉元素。完整版采用统一方格结构，简化版为横向字标。白色 SVG 请放在深色背景查看。
 
@@ -31,12 +58,6 @@ a city for makers
 | Machines：斜线、机器人、机、器 | [下载](assets/elements/musz_machines.svg) |
 | Life：斜线、生命符号、生、命 | [下载](assets/elements/musz_life.svg) |
 | Intelligence：斜线、星号、智、能 | [下载](assets/elements/musz_intelligence.svg) |
-
-### 主视觉
-
-[静态主视觉：预览与下载](assets/key-visuals/static/README.md) — 总主视觉、Machines、Life、Intelligence、Human Flourishing，以及 Garage 竖版与横版，共 7 张。PNG/JPG 提供固定外观，前四张另附静态 SVG。
-
-[主视觉分类](assets/key-visuals/README.md)：当前为静态版本，后续动态主视觉归入 `assets/key-visuals/motion/`；动态 Logo 归入 `assets/logos/motion/`。动态资产与运营模板尚未收录。
 
 ## 2. 阅读规范
 
