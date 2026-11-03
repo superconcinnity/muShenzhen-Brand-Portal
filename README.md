@@ -2,7 +2,7 @@
 
 a city for makers
 
-一座以整个深圳为实验田野的 Maker City。我们是连接。
+一座以整个深圳为实验田野的 Maker City。
 
 这里提供 mushenzhen 的标准 Logo、视觉元素、品牌指南与 Agent 可读数据。视觉元素和模板允许商用，**使用时必须提到 mushenzhen**。例如：视觉素材来源：mushenzhen。完整说明见 [USAGE.md](USAGE.md)。
 
