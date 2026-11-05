@@ -6,6 +6,12 @@ a city for makers
 
 这里提供 mushenzhen 的标准 Logo、视觉元素、品牌指南与 Agent 可读数据。视觉元素和模板允许商用，**使用时必须提到 mushenzhen**。例如：视觉素材来源：mushenzhen。完整说明见 [USAGE.md](USAGE.md)。
 
+## 在线工具
+
+**[Photo Studio 双色素描](https://mushenzhen.xyz/tools/duotone/)** — 上传照片，选择主题配色和元素，调整效果并导出 PNG。
+
+[源码与开发说明](tools/duotone/README.md) · [云端开发交接](tools/duotone/docs/HANDOFF.md)
+
 ## 静态主视觉海报
 
 点击图片查看原图，下方链接可打开对应文件。共 7 张静态海报；前四张另附可编辑的静态 SVG。
@@ -82,6 +88,6 @@ a city for makers
 
 **视觉元素和模板允许商用，必须注明 mushenzhen。**可在作品页脚、随图发布文案或网页 credits 中署名；具体建议见 [使用说明](USAGE.md)。Logo 遵循品牌指南，不因使用素材而暗示官方背书。
 
-本包不附带字体文件或软件代码。海报包含的照片与第三方素材不自动适用视觉元素与模板的授权。尚未指定标准公开许可证，使用要求以 USAGE.md 为准。
+本仓库含 Photo Studio 工具源码，不附带字体文件；软件代码许可尚未指定。海报包含的照片与第三方素材不自动适用视觉元素与模板的授权。尚未指定标准公开许可证，使用要求以 USAGE.md 为准。
 
 版本 0.1。年度活动安排不在本包中，请向主办方核对。
