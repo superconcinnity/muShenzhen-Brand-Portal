@@ -12,6 +12,20 @@ a city for makers
 
 [源码与开发说明](tools/duotone/README.md) · [云端开发交接](tools/duotone/docs/HANDOFF.md)
 
+## 活动日历 · Agent 模板
+
+**[日历模板与使用说明](templates/calendar/README.md)** — 下载后用自然语言让 Agent 修改活动、重点日和图片，保持品牌排版，导出 PNG / SVG；无需另建编辑工具。
+
+[![日历模板预览](templates/calendar/preview.png)](templates/calendar/README.md)
+
+[Agent 制作规则](templates/calendar/AGENTS.md) · [示例指令](templates/calendar/docs/PROMPTS.md) · [可编辑活动数据](templates/calendar/content.js)
+
+可直接告诉你的 Agent：
+
+> 下载本仓库，进入 templates/calendar，先读 AGENTS.md。按我的最新活动信息更新日历，提炼短标题、保持统一字号，运行检查并导出 PNG 和 SVG。
+
+当前模板附 2026.11.29–12.18 日程初稿，最终安排请向主办方核对。三张第三方照片仅作版式示例，不属于模板商用授权，使用前请核实授权或更换自有照片。
+
 ## 静态主视觉海报
 
 点击图片查看原图，下方链接可打开对应文件。共 7 张静态海报；前四张另附可编辑的静态 SVG。
@@ -37,7 +51,7 @@ a city for makers
 
 [全部静态主视觉与字体说明](assets/key-visuals/static/README.md) · [主视觉分类](assets/key-visuals/README.md)
 
-当前展示的是**静态版本**。后续动态主视觉与动态 Logo 将分别收录；动态资产和运营模板尚未发布。
+当前展示的是**静态版本**。后续动态主视觉与动态 Logo 将分别收录；动态资产尚未发布；活动日历运营模板见上方入口。
 
 ## 1. 下载 Logo 与视觉元素
 
@@ -88,6 +102,6 @@ a city for makers
 
 **视觉元素和模板允许商用，必须注明 mushenzhen。**可在作品页脚、随图发布文案或网页 credits 中署名；具体建议见 [使用说明](USAGE.md)。Logo 遵循品牌指南，不因使用素材而暗示官方背书。
 
-本仓库含 Photo Studio 工具源码，不附带字体文件；软件代码许可尚未指定。海报包含的照片与第三方素材不自动适用视觉元素与模板的授权。尚未指定标准公开许可证，使用要求以 USAGE.md 为准。
+本仓库含 Photo Studio 源码及日历模板；日历模板附 Chakra Petch Bold 与 SIL OFL 字体许可；软件代码许可尚未指定。海报包含的照片与第三方素材不自动适用视觉元素与模板的授权。尚未指定标准公开许可证，使用要求以 USAGE.md 为准。
 
-版本 0.1。年度活动安排不在本包中，请向主办方核对。
+品牌包版本 0.1。日历模板附本届日程初稿，不构成活动确认承诺，请向主办方核对。

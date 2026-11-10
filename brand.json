@@ -63,8 +63,9 @@
     "standardLicense": null
   },
   "programme": {
-    "status": "not-included",
-    "instruction": "Confirm event year and current programme with the organizer; do not infer dates from historical assets."
+    "status": "draft-calendar-included",
+    "instruction": "The calendar template includes a 2026 draft programme. Confirm current dates and status with the organizer; do not infer confirmation from the artwork.",
+    "path": "templates/calendar/README.md"
   },
   "languageGuide": "BRAND-STORY.md",
   "usagePolicy": "USAGE.md"

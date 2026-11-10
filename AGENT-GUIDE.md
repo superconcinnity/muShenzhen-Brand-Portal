@@ -11,7 +11,7 @@
 5. 元素 SVG 是组合条，不是一个符号。可以按创作需求拆分，但必须保留每个完整图标的路径、反白和剪切关系，不把整条挤进一个格子。
 6. 视觉元素及模板允许商用，必须提到 mushenzhen。默认附署名“视觉素材来源：mushenzhen”，并明确放在成品或随作品发布的说明中。
 7. 所有本地资源都应从本包相对路径读取；不要读取不存在的字体、照片、旧原稿或外部工作区文件。
-8. 不从历史海报推断本届日期。此包没有年度日程，活动年份、日期、人数、报名资格和执行承诺需要由使用者提供。
+8. 不从历史海报推断本届日期。templates/calendar 附本届日程初稿，更新前核对最新活动来源；其他作品的年份、日期、人数、报名资格和执行承诺需要由使用者提供。
 
 ## 数据状态
 
@@ -25,6 +25,6 @@
 
 ## 边界
 
-本包提供矢量素材、静态主视觉与说明，以及 tools/duotone 中的 Photo Studio 工具源码；开发工具前阅读该目录 AGENTS.md 和 README.md。不包含可编辑运营模板或字体文件。静态主视觉索引见 assets/key-visuals/static/assets.json（其中路径相对此索引目录）；kind=key-visual、medium=static。动态主视觉和动态 Logo 尚未收录，不得将静态 SVG 当作动画。Frontier Fusion、Future Mobility 等没有收录的 Logo 不可从现有主题改名推造。品牌与项目的真实名称以 brand.json 为准。
+本包提供矢量素材、静态主视觉与说明，以及 tools/duotone 中的 Photo Studio 工具源码；开发工具前阅读该目录 AGENTS.md 和 README.md。活动日历运营模板位于 templates/calendar，先阅读该目录 AGENTS.md 和 README.md；附 Chakra Petch Bold 及字体许可，支持自然语言驱动 Agent 修改并导出。静态主视觉索引见 assets/key-visuals/static/assets.json（其中路径相对此索引目录）；kind=key-visual、medium=static。动态主视觉和动态 Logo 尚未收录，不得将静态 SVG 当作动画。Frontier Fusion、Future Mobility 等没有收录的 Logo 不可从现有主题改名推造。品牌与项目的真实名称以 brand.json 为准。
 
 标准公开许可证尚未选定，不擅自标为 MIT、CC0 等。使用要求见 USAGE.md；使用素材不代表官方合作或背书。
