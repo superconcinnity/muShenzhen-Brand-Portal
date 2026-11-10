@@ -68,5 +68,20 @@
     "path": "templates/calendar/README.md"
   },
   "languageGuide": "BRAND-STORY.md",
-  "usagePolicy": "USAGE.md"
+  "usagePolicy": "USAGE.md",
+  "templates": {
+    "cityMaker": {
+      "path": "templates/city-maker",
+      "status": "confirmed",
+      "version": "1.0.0",
+      "entry": "templates/city-maker/AGENTS.md",
+      "fields": [
+        "portrait",
+        "company",
+        "role",
+        "name",
+        "description"
+      ]
+    }
+  }
 }

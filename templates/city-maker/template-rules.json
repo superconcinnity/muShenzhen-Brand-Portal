@@ -1,0 +1,46 @@
+{
+  "fontSizes": {
+    "primary": 64,
+    "secondary": 40
+  },
+  "fields": {
+    "company": {
+      "label": "公司／项目英文名",
+      "min": 2,
+      "max": 18,
+      "maxLines": 2,
+      "maxWidth": 448,
+      "size": "primary"
+    },
+    "role": {
+      "label": "英文角色",
+      "min": 2,
+      "max": 24,
+      "maxLines": 1,
+      "maxWidth": 1236,
+      "size": "secondary"
+    },
+    "name": {
+      "label": "姓名（中文／英文／双语）",
+      "min": 2,
+      "max": 24,
+      "maxLines": 2,
+      "maxWidth": 650,
+      "size": "primary"
+    },
+    "description": {
+      "label": "中文一句话描述",
+      "min": 8,
+      "max": 24,
+      "maxLines": 2,
+      "maxWidth": 1028,
+      "size": "secondary"
+    }
+  },
+  "safeArea": {
+    "left": 66,
+    "top": 80,
+    "right": 1302,
+    "bottom": 1730
+  }
+}

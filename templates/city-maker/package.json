@@ -1,0 +1,17 @@
+{
+  "name": "mushenzhen-city-maker-poster",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "render": "node render.cjs",
+    "setup": "playwright install chromium",
+    "check": "node validate.cjs"
+  },
+  "dependencies": {
+    "playwright": "1.58.2",
+    "sharp": "0.35.5"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}

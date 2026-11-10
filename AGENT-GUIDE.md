@@ -13,6 +13,10 @@
 7. 所有本地资源都应从本包相对路径读取；不要读取不存在的字体、照片、旧原稿或外部工作区文件。
 8. 不从历史海报推断本届日期。templates/calendar 附本届日程初稿，更新前核对最新活动来源；其他作品的年份、日期、人数、报名资格和执行承诺需要由使用者提供。
 
+## 人物海报出图
+
+使用 `templates/city-maker`，先读该目录 [AGENTS.md](templates/city-maker/AGENTS.md) 和 [README.md](templates/city-maker/README.md)。这是确认后的64／40字号版本，只替换五项人物信息，支持中文、英文和双语姓名；角色单行、标签自适应、固定安全边距。首次 `npm ci`、`npm run setup`，之后修改配置并 `npm run render`。不得自行重新设计或缩字；模板中的特定色值与页脚为已确认的局部约定。
+
 ## 数据状态
 
 - confirmed：品牌方明确确认的内容。

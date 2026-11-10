@@ -53,6 +53,14 @@ a city for makers
 
 当前展示的是**静态版本**。后续动态主视觉与动态 Logo 将分别收录；动态资产尚未发布；活动日历运营模板见上方入口。
 
+## City Maker 人物海报模板
+
+[使用说明与下载入口](templates/city-maker/README.md) · [Agent 规则](templates/city-maker/AGENTS.md) · [自然语言指令示例](templates/city-maker/PROMPTS.md)
+
+替换照片、公司／项目、角色、姓名和中文介绍即可出图。支持中文／英文／双语姓名；64／40字号层级、标签自适应、角色单行、零间距和安全边界检查已写入模板。附字体、许可、依赖锁文件及可直接运行的导出脚本。
+
+<a href="templates/city-maker/examples/vincent-preview.png"><img src="templates/city-maker/examples/vincent-preview.png" width="342" alt="City Maker 人物海报模板预览"></a>
+
 ## 1. 下载 Logo 与视觉元素
 
 36 个透明底 Logo + 4 组视觉元素。完整版采用统一方格结构，简化版为横向字标。白色 SVG 请放在深色背景查看。
@@ -102,6 +110,6 @@ a city for makers
 
 **视觉元素和模板允许商用，必须注明 mushenzhen。**可在作品页脚、随图发布文案或网页 credits 中署名；具体建议见 [使用说明](USAGE.md)。Logo 遵循品牌指南，不因使用素材而暗示官方背书。
 
-本仓库含 Photo Studio 源码及日历模板；日历模板附 Chakra Petch Bold 与 SIL OFL 字体许可；软件代码许可尚未指定。海报包含的照片与第三方素材不自动适用视觉元素与模板的授权。尚未指定标准公开许可证，使用要求以 USAGE.md 为准。
+本仓库含 Photo Studio 源码、日历模板及 City Maker 人物海报模板；模板附所用字体与 SIL OFL 许可；软件代码许可尚未指定。海报包含的照片与第三方素材不自动适用视觉元素与模板的授权。尚未指定标准公开许可证，使用要求以 USAGE.md 为准。
 
 品牌包版本 0.1。日历模板附本届日程初稿，不构成活动确认承诺，请向主办方核对。
