@@ -1,0 +1,49 @@
+{
+  "width": 1240,
+  "height": 1660,
+  "margin": 80,
+  "unit": 20,
+  "columns": 6,
+  "decorationStepUnits": 3,
+  "areas": {
+    "product": {
+      "column": 4,
+      "span": 3,
+      "row": 39,
+      "rows": 6
+    },
+    "eyebrow": {
+      "column": 1,
+      "span": 6,
+      "row": 56,
+      "rows": 3
+    },
+    "identity": {
+      "column": 1,
+      "span": 6,
+      "row": 59,
+      "rows": 9
+    },
+    "series": {
+      "column": 1,
+      "span": 6,
+      "row": 68,
+      "rows": 8
+    },
+    "footer": {
+      "column": 1,
+      "span": 6,
+      "row": 76,
+      "rows": 3
+    }
+  },
+  "guide": {
+    "frameClearanceUnits": 3,
+    "lastLegUnits": 3,
+    "titleGapUnits": 1
+  },
+  "imageSafety": {
+    "topInsetUnits": 4,
+    "handleHalfSize": 8
+  }
+}

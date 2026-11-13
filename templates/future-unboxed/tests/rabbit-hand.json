@@ -1,0 +1,127 @@
+{
+  "product": "r1",
+  "subtitle": "POCKET AI COMPANION",
+  "category": "便携AI设备",
+  "description": "A pocket companion built around natural interaction.",
+  "seriesZh": "未来拆封",
+  "company": "rabbit",
+  "seriesEn": "FUTURE, UNBOXED",
+  "website": "mushenzhen.xyz",
+  "image": {
+    "src": "tests/assets/rabbit-hand.webp",
+    "placement": {
+      "x": 80,
+      "y": -240,
+      "width": 1000,
+      "height": 1249.8483929654335
+    },
+    "target": {
+      "x": 0.35,
+      "y": 0.33,
+      "width": 0.53,
+      "height": 0.36,
+      "padding": 20,
+      "label": "完整产品轮廓（人工标定）"
+    },
+    "anchor": {
+      "x": 0.65,
+      "y": 0.58
+    },
+    "baseColor": "#141414"
+  },
+  "testOnly": true,
+  "decoration": {
+    "mode": "surround",
+    "intensity": 1,
+    "buffer": 40,
+    "range": 400,
+    "foregroundPolygons": [
+      [
+        [
+          0,
+          0.39
+        ],
+        [
+          0.12,
+          0.35
+        ],
+        [
+          0.28,
+          0.3
+        ],
+        [
+          0.44,
+          0.22
+        ],
+        [
+          0.62,
+          0.18
+        ],
+        [
+          0.79,
+          0.14
+        ],
+        [
+          0.81,
+          0.17
+        ],
+        [
+          0.8,
+          0.195
+        ],
+        [
+          0.66,
+          0.26
+        ],
+        [
+          0.72,
+          0.29
+        ],
+        [
+          0.77,
+          0.36
+        ],
+        [
+          0.85,
+          0.39
+        ],
+        [
+          0.88,
+          0.42
+        ],
+        [
+          0.875,
+          0.45
+        ],
+        [
+          0.62,
+          0.69
+        ],
+        [
+          0.47,
+          0.7
+        ],
+        [
+          0.46,
+          0.72
+        ],
+        [
+          0.39,
+          0.71
+        ],
+        [
+          0.28,
+          0.67
+        ],
+        [
+          0.15,
+          0.655
+        ],
+        [
+          0,
+          0.67
+        ]
+      ]
+    ]
+  }
+}

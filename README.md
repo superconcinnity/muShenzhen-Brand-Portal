@@ -61,6 +61,14 @@ a city for makers
 
 <a href="templates/city-maker/examples/vincent-preview.png"><img src="templates/city-maker/examples/vincent-preview.png" width="342" alt="City Maker 人物海报模板预览"></a>
 
+## Future, Unboxed 产品海报模板
+
+[使用说明](templates/future-unboxed/README.md) · [Agent 规则](templates/future-unboxed/AGENTS.md) · [完整适配规范](templates/future-unboxed/RULES.md) · [自然语言指令](templates/future-unboxed/PROMPTS.md)
+
+替换产品图片与文案即可按统一网格出图。包含高亮窗口、背景环绕装饰、顶部安全区、引导线留白及长标题规则；附品牌字体、许可、锁定依赖和可运行示例。前景范围及主体比例需逐图标定并视觉检查。
+
+<a href="templates/future-unboxed/examples/default-preview.png"><img src="templates/future-unboxed/examples/default-preview.png" width="342" alt="Future, Unboxed 产品海报模板预览"></a>
+
 ## 1. 下载 Logo 与视觉元素
 
 36 个透明底 Logo + 4 组视觉元素。完整版采用统一方格结构，简化版为横向字标。白色 SVG 请放在深色背景查看。
@@ -110,6 +118,6 @@ a city for makers
 
 **视觉元素和模板允许商用，必须注明 mushenzhen。**可在作品页脚、随图发布文案或网页 credits 中署名；具体建议见 [使用说明](USAGE.md)。Logo 遵循品牌指南，不因使用素材而暗示官方背书。
 
-本仓库含 Photo Studio 源码、日历模板及 City Maker 人物海报模板；模板附所用字体与 SIL OFL 许可；软件代码许可尚未指定。海报包含的照片与第三方素材不自动适用视觉元素与模板的授权。尚未指定标准公开许可证，使用要求以 USAGE.md 为准。
+本仓库含 Photo Studio 源码、日历模板、City Maker 人物海报及 Future, Unboxed 产品海报模板；模板附所用字体与 SIL OFL 许可；软件代码许可尚未指定。海报包含的照片与第三方素材不自动适用视觉元素与模板的授权。尚未指定标准公开许可证，使用要求以 USAGE.md 为准。
 
 品牌包版本 0.1。日历模板附本届日程初稿，不构成活动确认承诺，请向主办方核对。

@@ -1,0 +1,60 @@
+{
+  "product": "K.O. II",
+  "subtitle": "SAMPLER & COMPOSER",
+  "category": "便携采样器",
+  "description": "Sample your surroundings. Turn sounds into tracks.",
+  "seriesZh": "未来拆封",
+  "company": "teenage engineering",
+  "seriesEn": "FUTURE, UNBOXED",
+  "website": "mushenzhen.xyz",
+  "image": {
+    "src": "tests/assets/teenage-ko2.webp",
+    "placement": {
+      "x": 240,
+      "y": -40,
+      "width": 760,
+      "height": 760
+    },
+    "target": {
+      "x": 0.23876953125,
+      "y": 0.13330078125,
+      "width": 0.5224609375,
+      "height": 0.72314453125,
+      "padding": 20,
+      "label": "完整产品轮廓（人工标定）"
+    },
+    "anchor": {
+      "x": 0.65,
+      "y": 0.58
+    },
+    "baseColor": "#343434"
+  },
+  "testOnly": true,
+  "decoration": {
+    "mode": "surround",
+    "intensity": 1,
+    "buffer": 40,
+    "range": 400,
+    "foregroundPolygons": [
+      [
+        [
+          0.238,
+          0.132
+        ],
+        [
+          0.762,
+          0.132
+        ],
+        [
+          0.762,
+          0.858
+        ],
+        [
+          0.238,
+          0.858
+        ]
+      ]
+    ],
+    "backgroundExtent": "canvas"
+  }
+}

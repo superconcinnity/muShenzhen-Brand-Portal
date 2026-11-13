@@ -1,0 +1,10 @@
+node_modules/
+output/
+exports/
+.DS_Store
+tests/assets/
+tests/nothing-studio/
+tests/nothing-worn/
+tests/rabbit-hand/
+tests/teenage-ko2/
+tests/surround-batch-validation.json

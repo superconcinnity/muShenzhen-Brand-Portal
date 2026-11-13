@@ -1,0 +1,29 @@
+{
+  "product": "EVEN G2",
+  "subtitle": "AI DISPLAY SMART GLASSES",
+  "category": "AI智能眼镜",
+  "description": "Translation, prompts and AI assistance — right in your line of sight.",
+  "seriesZh": "未来拆封",
+  "company": "@EVEN REALITIES",
+  "seriesEn": "FUTURE, UNBOXED",
+  "website": "mushenzhen.xyz",
+  "image": {
+    "src": "assets/glasses-display.jpg",
+    "placement": {
+      "x": 0,
+      "y": -460,
+      "width": 1240,
+      "height": 1860
+    },
+    "highlight": {
+      "column": 1,
+      "span": 6,
+      "row": 15,
+      "rows": 21
+    },
+    "anchor": {
+      "x": 0.72,
+      "y": 0.58
+    }
+  }
+}

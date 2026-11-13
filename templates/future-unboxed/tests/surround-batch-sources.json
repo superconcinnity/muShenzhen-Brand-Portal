@@ -1,0 +1,34 @@
+[
+  {
+    "id": "nothing-studio",
+    "sourcePage": "https://checkout.nothing.tech/products/headphone-1",
+    "imageUrl": "https://cdn.sanity.io/images/gtd4w1cq/production/e46a5dce8b323b3601995bb54dc8d818cab0b7bf-4096x2305.jpg?auto=format",
+    "note": "完整头梁与耳罩；装饰沿产品外围分布。",
+    "annotation": "手动轮廓标定",
+    "usage": "本地模板测试"
+  },
+  {
+    "id": "nothing-worn",
+    "sourcePage": "https://checkout.nothing.tech/products/headphone-1",
+    "imageUrl": "https://cdn.sanity.io/images/gtd4w1cq/production/6e7ce8b020e81a6e157c8c0d7ccacc16961f7896-4096x2305.jpg?auto=format",
+    "note": "头显为高亮目标；整个人物为装饰避让区。",
+    "annotation": "手动轮廓标定",
+    "usage": "本地模板测试"
+  },
+  {
+    "id": "rabbit-hand",
+    "sourcePage": "https://www.rabbit.tech/rabbit-r1",
+    "imageUrl": "https://www.rabbit.tech/media/r1/r1_inhand_mobile.webp",
+    "note": "高亮完整 r1；手指、手掌均纳入前景避让。",
+    "annotation": "手动轮廓标定",
+    "usage": "本地模板测试"
+  },
+  {
+    "id": "teenage-ko2",
+    "sourcePage": "https://teenage.engineering/products/ep-133",
+    "imageUrl": "https://assets.teenage.engineering/_img/6978e1aefc9c2472dcdaf6ff_2048.webp",
+    "note": "完整采样器；透明区域之外的画布底色也属于背景。",
+    "annotation": "手动轮廓标定",
+    "usage": "本地模板测试"
+  }
+]

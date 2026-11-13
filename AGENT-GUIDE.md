@@ -17,6 +17,10 @@
 
 使用 `templates/city-maker`，先读该目录 [AGENTS.md](templates/city-maker/AGENTS.md) 和 [README.md](templates/city-maker/README.md)。这是确认后的64／40字号版本，只替换五项人物信息，支持中文、英文和双语姓名；角色单行、标签自适应、固定安全边距。首次 `npm ci`、`npm run setup`，之后修改配置并 `npm run render`。不得自行重新设计或缩字；模板中的特定色值与页脚为已确认的局部约定。
 
+## 产品海报出图
+
+使用 `templates/future-unboxed`，先读 [AGENTS.md](templates/future-unboxed/AGENTS.md)、[完整适配规范](templates/future-unboxed/RULES.md) 和 [README.md](templates/future-unboxed/README.md)。替换原图、产品名称、英文品类、中文品类、英文介绍与品牌署名。按图标定目标及完整前景，保留字体、网格、顶部安全区与引导线间距；长名称优先扩列，不缩字。首次 `npm ci`、`npm run setup`，之后独立配置导出并查看实际图片。网上测试图片仅提供来源和显式下载脚本。
+
 ## 数据状态
 
 - confirmed：品牌方明确确认的内容。

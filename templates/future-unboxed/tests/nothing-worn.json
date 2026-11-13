@@ -1,0 +1,107 @@
+{
+  "product": "Headphone (1)",
+  "subtitle": "OVER-EAR HEADPHONES",
+  "category": "头戴式耳机",
+  "description": "Immersive sound, with controls at your fingertips.",
+  "seriesZh": "未来拆封",
+  "company": "Nothing",
+  "seriesEn": "FUTURE, UNBOXED",
+  "website": "mushenzhen.xyz",
+  "image": {
+    "src": "tests/assets/nothing-worn.jpg",
+    "placement": {
+      "x": -820,
+      "y": 0,
+      "width": 2880,
+      "height": 1620.703125
+    },
+    "target": {
+      "x": 0.405,
+      "y": 0.065,
+      "width": 0.19,
+      "height": 0.34,
+      "padding": 20,
+      "label": "完整头戴耳机及佩戴者头部（构图上下文）"
+    },
+    "anchor": {
+      "x": 0.65,
+      "y": 0.58
+    },
+    "baseColor": "#ededed"
+  },
+  "testOnly": true,
+  "decoration": {
+    "mode": "surround",
+    "intensity": 1,
+    "buffer": 40,
+    "range": 400,
+    "foregroundPolygons": [
+      [
+        [
+          0.45,
+          0.075
+        ],
+        [
+          0.53,
+          0.07
+        ],
+        [
+          0.57,
+          0.13
+        ],
+        [
+          0.6,
+          0.4
+        ],
+        [
+          0.62,
+          0.55
+        ],
+        [
+          0.69,
+          0.65
+        ],
+        [
+          0.62,
+          0.75
+        ],
+        [
+          0.6,
+          1
+        ],
+        [
+          0.39,
+          1
+        ],
+        [
+          0.37,
+          0.82
+        ],
+        [
+          0.39,
+          0.72
+        ],
+        [
+          0.385,
+          0.6
+        ],
+        [
+          0.42,
+          0.43
+        ],
+        [
+          0.425,
+          0.32
+        ],
+        [
+          0.407,
+          0.25
+        ]
+      ]
+    ]
+  },
+  "productLayout": {
+    "column": 3,
+    "span": 4
+  }
+}
