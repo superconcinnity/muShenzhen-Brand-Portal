@@ -4,23 +4,35 @@ const root=__dirname,configPath=path.resolve(process.argv[2]||path.join(root,'co
 const output=path.resolve(process.argv[3]||path.join(root,'output',path.basename(configPath,'.json')));
 const escape=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
 const runAt=new Date().toISOString();
+const isRecord=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
+function allowedKeys(value,keys,name){
+ const unknown=Object.keys(value).filter(key=>!keys.includes(key));
+ if(unknown.length)throw Error(`${name} 有未知字段：${unknown.join('、')}。请检查拼写，避免忽略你的修改。`);
+}
 (async()=>{
  fs.mkdirSync(output,{recursive:true});
  fs.writeFileSync(path.join(output,'render-status.json'),JSON.stringify({status:'running',runAt},null,2));
  const config=JSON.parse(fs.readFileSync(configPath,'utf8'));
+ if(!isRecord(config))throw Error('配置必须为JSON对象');
+ allowedKeys(config,['theme','image','titleZh','titleEn','metadata'],'配置');
+ if(!isRecord(config.image))throw Error('image 必须为包含src的对象');
+ allowedKeys(config.image,['src','framing','position'],'image');
+ if(typeof config.image.src!=='string'||!config.image.src.trim())throw Error('image.src 必须为非空图片路径');
+ if(config.metadata!==undefined&&!isRecord(config.metadata))throw Error('metadata 必须为对象，或省略该字段');
  const themes={brown:{background:'#795E4B',foreground:'#DFFF2F'},blue:{background:'#5456BE',foreground:'#ACC0BF'}};
- if(!themes[config.theme])throw Error('theme 只能为 brown 或 blue');
- for(const key of ['titleZh','titleEn'])if(typeof config[key]!=='string'||!config[key].trim()||/[\r\n]/.test(config[key]))throw Error(key+' 必须为非空单行文字');
+ if(typeof config.theme!=='string'||!Object.hasOwn(themes,config.theme))throw Error('theme 只能为 brown 或 blue');
+ for(const key of ['titleZh','titleEn'])if(typeof config[key]!=='string'||!config[key].trim()||/[\r\n\t\u2028\u2029]/.test(config[key]))throw Error(key+' 必须为非空单行文字');
  const source=path.resolve(root,config.image?.src||'');
  if(!fs.existsSync(source)||!fs.statSync(source).isFile())throw Error('图片不存在：'+source);
  const positions=['centre','center','top','bottom','left','right','attention','entropy'];
- if(!positions.includes(config.image.position||'centre'))throw Error('不支持的 image.position');
+ const position=config.image.position===undefined?'centre':config.image.position;
+ if(!positions.includes(position))throw Error('不支持的 image.position');
  // original reproduces the supplied design; window fits new images to the visible photo window.
- const framing=config.image.framing||'window';
+ const framing=config.image.framing===undefined?'window':config.image.framing;
  if(!['original','window'].includes(framing))throw Error('image.framing 只能为 original 或 window');
  const photoWidth=framing==='window'?2192:4003,photoHeight=framing==='window'?1760:2252;
  const sourceMetadata=await sharp(source).metadata();
- const photo=await sharp(source).rotate().resize(photoWidth,photoHeight,{fit:'cover',position:config.image.position||'centre'}).png().toBuffer();
+ const photo=await sharp(source).rotate().resize(photoWidth,photoHeight,{fit:'cover',position}).png().toBuffer();
  let svg=fs.readFileSync(path.join(root,'assets/template.svg'),'utf8').replace('__PHOTO_DATA__','data:image/png;base64,'+photo.toString('base64'));
  if(framing==='window'){
   if(!svg.includes('M3509.56 -67.5625'))throw Error('照片窗口路径与模板版本不匹配');
@@ -46,10 +58,11 @@ const runAt=new Date().toISOString();
   const page=await browser.newPage({viewport:{width:2632,height:3509},deviceScaleFactor:1});
   await page.goto(pathToFileURL(htmlPath).href);await page.evaluate(async()=>{await Promise.all([document.fonts.load('500 200px Plex'),document.fonts.load('600 200px Chakra')]);await document.fonts.ready;if(!document.fonts.check('500 200px Plex')||!document.fonts.check('600 200px Chakra'))throw Error('品牌字体加载失败');await Promise.all([...document.querySelectorAll('svg image')].map(el=>new Promise((resolve,reject)=>{const i=new Image();i.onload=resolve;i.onerror=()=>reject(Error('图片加载失败'));i.src=el.getAttributeNS('http://www.w3.org/1999/xlink','href')})))});
   const checks=await page.evaluate(()=>({titles:['title-zh','title-en'].map(id=>{const group=document.getElementById(id),text=group.querySelector('text');let b=group.getBBox();if(text){const style=getComputedStyle(text),ctx=document.createElement('canvas').getContext('2d');ctx.font=style.font;const m=ctx.measureText(text.textContent);b={x:Number(text.getAttribute('x'))-m.actualBoundingBoxLeft,y:Number(text.getAttribute('y'))-m.actualBoundingBoxAscent,width:m.actualBoundingBoxLeft+m.actualBoundingBoxRight,height:m.actualBoundingBoxAscent+m.actualBoundingBoxDescent};}return{id,x:b.x,y:b.y,width:b.width,height:b.height,pass:b.x>=100&&b.x+b.width<=2400&&b.y>=2180&&b.y+b.height<=2640}})}));
-  checks.status='passed';checks.runAt=runAt;checks.fonts={titleZh:{family:'IBM Plex Sans SC',weight:500},titleEn:{family:'Chakra Petch',weight:600}};checks.theme=config.theme;checks.canvas={width:2632,height:3509};checks.image={width:photoWidth,height:photoHeight,fit:'cover',position:config.image.position||'centre',framing};
-  checks.sourceImage={width:sourceMetadata.width,height:sourceMetadata.height};
+  checks.status='passed';checks.runAt=runAt;checks.fonts={titleZh:{family:'IBM Plex Sans SC',weight:500},titleEn:{family:'Chakra Petch',weight:600}};checks.theme=config.theme;checks.canvas={width:2632,height:3509};checks.image={width:photoWidth,height:photoHeight,fit:'cover',position,framing};
+  const oriented=sourceMetadata.autoOrient||sourceMetadata;
+  checks.sourceImage={width:oriented.width,height:oriented.height};
   checks.warnings=[];
-  if(sourceMetadata.width<photoWidth||sourceMetadata.height<photoHeight)checks.warnings.push('源图需放大，实际清晰度请看高清PNG确认；导出尺寸不等于原图清晰度。');
+  if(oriented.width<photoWidth||oriented.height<photoHeight)checks.warnings.push('源图需放大，实际清晰度请看高清PNG确认；导出尺寸不等于原图清晰度。');
   const overflow=checks.titles.filter(t=>!t.pass);
   if(overflow.length)throw Error('标题超出可用区域：'+overflow.map(t=>`${t.id} 实际宽 ${Math.round(t.width)}px，右边界 ${Math.round(t.x+t.width)}px（最大2400px）`).join('；')+'。请保留完整名称记录，提炼真实展示短标题；保持200px字号与单行。');
   await page.locator('svg').first().screenshot({path:path.join(output,'poster.png')});

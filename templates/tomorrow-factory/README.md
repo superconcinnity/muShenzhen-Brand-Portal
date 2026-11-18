@@ -19,7 +19,15 @@ npm run render:blue
 
 需要 Node.js 20.9+、npm。首次安装依赖和 Chromium 需要联网；可用 `CHROME_PATH` 指定本机 Chrome 可执行文件。Linux 缺系统库时按 Playwright 的报错补装。
 
-默认棕色输出在 `output/content/`，蓝色在 `output/blue/`。两份默认配置显式使用 `original`，用于复现原稿。
+如果Chromium下载较慢或失败，而电脑已安装Chrome，可使用备用方式。例如macOS终端：
+
+```sh
+CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" npm run render
+```
+
+这会直接使用已安装的Chrome，无需先完成`npm run setup`。路径必须指向可执行文件；Windows、Linux请填写对应实际路径。
+
+默认棕色输出在 `output/content/`，蓝色在 `output/blue/`。两份默认配置显式使用 `original`，用于复现原照片取景；工厂标题统一使用确认的Medium / SemiBold字重。
 
 ## 同事制作新海报
 
@@ -51,7 +59,7 @@ npm run render:blue
 node render.cjs my-factory.json exports/my-factory
 ```
 
-图片路径相对此模板目录，命令中的配置与输出路径相对当前终端目录。`metadata` 仅作随配置保存的来源记录，不会印到海报上；自有素材可写自己的来源说明。
+图片路径相对此模板目录，命令中的配置与输出路径相对当前终端目录。有空格的命令参数需加引号，如`node render.cjs "my factory.json" "exports/factory A"`。`metadata`必须是对象；仅作随配置保存的来源记录，不会印到海报上，自有素材可写自己的来源说明。顶层和image中的拼写错误或未知字段会报错。
 
 ## 图片怎么调整
 
@@ -73,7 +81,6 @@ node render.cjs my-factory.json exports/my-factory
 - 替换下方“华秋电子-江门制造工厂 / HUAQIU ELECTRONICS”；“明日出厂 / INSIDE THE FACTORY”属于固定系列标识。
 - 所有可变标题（含默认样例）统一使用 IBM Plex Sans SC Medium（500，中文）/ Chakra Petch SemiBold（600，英文），200px、单行、左对齐。使用对应真实字体文件，不用浏览器合成加粗。
 - 按实际字形宽度检查，不按统一字数判断。超宽时可省略重复的集团、制造、有限公司等信息，但保留准确的品牌及必要地点；不要制造简称。
-- 例如测试采用 `LEGO VIETNAM` 作为展示短标题，同时记录完整的 `LEGO MANUFACTURING VIETNAM`。这不是新的官方名称。
 - 配色仅选 `brown`（#795E4B / #DFFF2F）或 `blue`（#5456BE / #ACC0BF），不混搭。
 
 ## 输出与交付
@@ -91,4 +98,4 @@ node render.cjs my-factory.json exports/my-factory
 
 PNG 是发布成品；SVG 的替换标题为文本，固定标识仍为路径，不同软件对嵌入字体的支持可能不同，以 PNG 预览为准。
 
-完整的固定元素、照片适配顺序与验收清单见 [RULES.md](RULES.md)。署名及使用条件见仓库 [USAGE.md](../../USAGE.md)。网上测试照片没有打包进仓库。
+完整的固定元素、照片适配顺序与验收要求见 [RULES.md](RULES.md)。署名及使用条件见仓库 [USAGE.md](../../USAGE.md)。网上测试照片没有打包进仓库。
