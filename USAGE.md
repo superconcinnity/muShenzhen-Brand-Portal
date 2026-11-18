@@ -24,3 +24,5 @@ mushenzhen 允许视觉元素和模板用于商业用途。使用时**必须提�
 City Maker 人物海报模板位于 templates/city-maker；字体按随包 SIL OFL 许可，人物照片和肖像不自动属于品牌视觉授权范围。该模板未包含网上人物测试照片。
 
 Future, Unboxed 产品海报位于 templates/future-unboxed；附用户提供的默认眼镜展示图，照片不自动适用品牌视觉授权。网上品牌测试照片不随库分发，来源及下载说明见该模板。
+
+明日出厂海报模板位于 templates/tomorrow-factory，附用户设计稿提取的工厂照片及两套配色。照片不自动适用品牌视觉素材授权；字体许可随包附带。

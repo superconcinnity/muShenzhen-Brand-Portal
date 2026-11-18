@@ -1,0 +1,17 @@
+{
+  "name": "mushenzhen-tomorrow-factory",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "playwright install chromium",
+    "render": "node render.cjs",
+    "render:blue": "node render.cjs content-blue.json output/blue"
+  },
+  "dependencies": {
+    "playwright": "1.58.2",
+    "sharp": "0.35.5"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}

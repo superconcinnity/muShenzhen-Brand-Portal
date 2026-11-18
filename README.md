@@ -69,6 +69,14 @@ a city for makers
 
 <a href="templates/future-unboxed/examples/default-preview.png"><img src="templates/future-unboxed/examples/default-preview.png" width="342" alt="Future, Unboxed 产品海报模板预览"></a>
 
+## 明日出厂 · 工厂参访海报模板
+
+[使用说明](templates/tomorrow-factory/README.md) · [Agent 执行规则](templates/tomorrow-factory/AGENTS.md) · [版式规则](templates/tomorrow-factory/RULES.md) · [示例指令](templates/tomorrow-factory/PROMPTS.md)
+
+下载模板后，让 Agent 替换照片与工厂中英文名称，选择棕色或蓝色，导出 PNG / SVG。固定系列标题、照片遮罩、像素色块和 Logo 沿用设计原稿；附品牌字体、许可、配置及渲染脚本。
+
+<a href="templates/tomorrow-factory/examples/brown-preview.png"><img src="templates/tomorrow-factory/examples/brown-preview.png" width="300" alt="明日出厂棕色版"></a> <a href="templates/tomorrow-factory/examples/blue-preview.png"><img src="templates/tomorrow-factory/examples/blue-preview.png" width="300" alt="明日出厂蓝色版"></a>
+
 ## 1. 下载 Logo 与视觉元素
 
 36 个透明底 Logo + 4 组视觉元素。完整版采用统一方格结构，简化版为横向字标。白色 SVG 请放在深色背景查看。

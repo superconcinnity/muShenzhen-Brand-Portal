@@ -21,6 +21,10 @@
 
 使用 `templates/future-unboxed`，先读 [AGENTS.md](templates/future-unboxed/AGENTS.md)、[完整适配规范](templates/future-unboxed/RULES.md) 和 [README.md](templates/future-unboxed/README.md)。替换原图、产品名称、英文品类、中文品类、英文介绍与品牌署名。按图标定目标及完整前景，保留字体、网格、顶部安全区与引导线间距；长名称优先扩列，不缩字。首次 `npm ci`、`npm run setup`，之后独立配置导出并查看实际图片。网上测试图片仅提供来源和显式下载脚本。
 
+## 明日出厂 · 工厂参访海报
+
+使用 `templates/tomorrow-factory`，先读该目录 [AGENTS.md](templates/tomorrow-factory/AGENTS.md)、[RULES.md](templates/tomorrow-factory/RULES.md) 与 [README.md](templates/tomorrow-factory/README.md)。可替换照片、工厂中文标题与英文标题，可选棕色 / 蓝色两套配色。“明日出厂 / INSIDE THE FACTORY”属于固定系列标识。使用独立 JSON，经渲染脚本导出 PNG、SVG 和预览，检查主体裁切及标题溢出。与其他模板一样，由同事下载后用 Agent 操作，无需网页编辑器。
+
 ## 数据状态
 
 - confirmed：品牌方明确确认的内容。
