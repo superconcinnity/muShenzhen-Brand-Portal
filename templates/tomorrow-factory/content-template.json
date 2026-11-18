@@ -1,0 +1,15 @@
+{
+  "theme": "brown",
+  "image": {
+    "src": "assets/factory-photo.png",
+    "framing": "window",
+    "position": "centre"
+  },
+  "titleZh": "工厂中文名称",
+  "titleEn": "FACTORY NAME",
+  "metadata": {
+    "fullTitleZh": "填写完整中文名称",
+    "fullTitleEn": "填写完整英文名称",
+    "sourceUrl": "填写名称或照片来源；自有照片可写说明"
+  }
+}

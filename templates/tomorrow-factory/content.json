@@ -2,7 +2,8 @@
   "theme": "brown",
   "image": {
     "src": "assets/factory-photo.png",
-    "position": "centre"
+    "position": "centre",
+    "framing": "original"
   },
   "titleZh": "华秋电子-江门制造工厂",
   "titleEn": "HUAQIU ELECTRONICS"

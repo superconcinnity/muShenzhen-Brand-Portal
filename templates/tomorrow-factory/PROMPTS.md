@@ -1,7 +1,21 @@
 # 同事可直接发给 Agent 的指令
 
-> 下载 https://github.com/superconcinnity/muShenzhen-Brand-Portal ，使用 templates/tomorrow-factory 明日出厂模板。先读 AGENTS.md 和 RULES.md。用我提供的照片替换图片，下方中文标题为【工厂中文名】，英文标题为【FACTORY NAME】，配色选【brown / blue】。保留原图的系列标识、像素色块与 Logo。照片等比裁切，主体完整，标题保持指定字号及单行。用独立 JSON 导出高清 PNG、SVG 和预览，检查成品后交付。
+## 新照片出图
 
-> 同一张图片和文案分别输出棕色、蓝色两版，使用独立配置和输出目录，保留原样例。
+> 下载 https://github.com/superconcinnity/muShenzhen-Brand-Portal ，进入 templates/tomorrow-factory，先读 AGENTS.md、README.md 和 RULES.md。复制 content-template.json，用我提供的原图制作明日出厂海报。中文标题【中文名称】，英文标题【英文名称】，配色【brown / blue】。优先按可见照片窗口取景，保留固定系列标识、像素色块和 Logo。完整名称及来源保存到 metadata，必要时提炼真实展示短标题。保持200px字号和单行，查看高清图及本次导出状态后，交付PNG、SVG、预览和独立配置。
 
-> 工厂主体被色块遮住了，请调整照片裁切重心，保持遮罩和版式不变，重新输出并说明裁切方式。
+## 同一版式两种配色
+
+> 同一照片与标题分别输出棕色、蓝色，使用独立配置和输出目录，检查两种配色下的照片、色块和标题。
+
+## 主体被裁掉
+
+> 主楼 / 门头 / 人物被裁掉了。先检查 framing 是否适合新图，再根据原图调整 position，保持图片比例和原遮罩；源图余量不足就说明具体缺失，不要拉伸照片。
+
+## 厂名太长
+
+> 名称过长时，请保留完整名称与来源记录，提炼用于海报的展示短标题，保留品牌及必要地点。保持字号与单行，不任意创造缩写。仍放不下就说明冲突，不强行通过。
+
+## 原稿复现
+
+> 使用 content.json / content-blue.json 复现华秋原稿，保留 framing=original 和原始标题路径字形。
