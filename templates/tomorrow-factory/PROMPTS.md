@@ -2,7 +2,7 @@
 
 ## 新照片出图
 
-> 下载 https://github.com/superconcinnity/muShenzhen-Brand-Portal ，进入 templates/tomorrow-factory，先读 AGENTS.md、README.md 和 RULES.md。复制 content-template.json，用我提供的原图制作明日出厂海报。中文标题【中文名称】，英文标题【英文名称】，配色【brown / blue】。优先按可见照片窗口取景，保留固定系列标识、像素色块和 Logo。完整名称及来源保存到 metadata，必要时提炼真实展示短标题。保持200px字号和单行，查看高清图及本次导出状态后，交付PNG、SVG、预览和独立配置。
+> 下载 https://github.com/superconcinnity/muShenzhen-Brand-Portal ，进入 templates/tomorrow-factory，先读 AGENTS.md、README.md 和 RULES.md。复制 content-template.json，用我提供的原图制作明日出厂海报。中文标题【中文名称】，英文标题【英文名称】，配色【brown / blue】。优先按可见照片窗口取景，保留固定系列标识、像素色块和 Logo。完整名称及来源保存到 metadata，必要时提炼真实展示短标题。中文Medium 500、英文SemiBold 600，保持200px字号和单行，查看高清图及本次导出状态后，交付PNG、SVG、预览和独立配置。
 
 ## 同一版式两种配色
 
@@ -18,4 +18,4 @@
 
 ## 原稿复现
 
-> 使用 content.json / content-blue.json 复现华秋原稿，保留 framing=original 和原始标题路径字形。
+> 使用 content.json / content-blue.json 复现华秋原稿，保留 framing=original；工厂标题使用确认的中文Medium与英文SemiBold字重。

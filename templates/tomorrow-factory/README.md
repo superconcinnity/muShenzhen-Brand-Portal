@@ -71,7 +71,7 @@ node render.cjs my-factory.json exports/my-factory
 ## 标题与配色
 
 - 替换下方“华秋电子-江门制造工厂 / HUAQIU ELECTRONICS”；“明日出厂 / INSIDE THE FACTORY”属于固定系列标识。
-- 新标题使用包内 IBM Plex Sans SC Regular / Chakra Petch Regular，200px、单行、左对齐。默认标题保留原稿轮廓。
+- 所有可变标题（含默认样例）统一使用 IBM Plex Sans SC Medium（500，中文）/ Chakra Petch SemiBold（600，英文），200px、单行、左对齐。使用对应真实字体文件，不用浏览器合成加粗。
 - 按实际字形宽度检查，不按统一字数判断。超宽时可省略重复的集团、制造、有限公司等信息，但保留准确的品牌及必要地点；不要制造简称。
 - 例如测试采用 `LEGO VIETNAM` 作为展示短标题，同时记录完整的 `LEGO MANUFACTURING VIETNAM`。这不是新的官方名称。
 - 配色仅选 `brown`（#795E4B / #DFFF2F）或 `blue`（#5456BE / #ACC0BF），不混搭。

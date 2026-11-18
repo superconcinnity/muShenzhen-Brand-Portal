@@ -14,9 +14,9 @@
 - 宝马装配线是1280 × 854图；属于内部生产细节，不能因标题是工厂名就误称为外观全景。
 - 乐高图是3318 × 1487的航拍；要检查主楼与门头是否有足够视觉比重。
 - 戴森图是3840 × 2162的双人场景；original裁掉两侧人物，window显示得更完整，仍需确认头部、手部和展品没有被像素块遮挡。
-- 长中文名称“戴森新加坡先进制造工厂”在200px下实际宽度约2178px，可以放下；字符数多不代表一定超宽。
+- 长中文名称“戴森新加坡先进制造工厂”在200px下Regular测试时实际宽度约2178px，可以放下；字符数多不代表一定超宽。
 - 完整英文名 BMW GROUP PLANT LEIPZIG / LEGO MANUFACTURING VIETNAM / DYSON SINGAPORE ADVANCED MANUFACTURING 超宽。测试展示短标题采用 BMW LEIPZIG / LEGO VIETNAM / DYSON SAM，完整名称另存。它们是排版提炼，不能当作重新确认的官方名称。
-- 原稿模式的默认棕色预览在新增window功能后像素保持一致。
+- 增加window时曾验证原稿模式照片取景保持一致；后续可变标题统一更新为中文Medium 500 / 英文SemiBold 600，因此字体外观以更新后的预览为准。
 
 ## 来源
 
@@ -25,3 +25,7 @@
 - Dyson：[新加坡工厂官方介绍](https://careers.dyson.com/en-gb/where-we-are/asia-pacific/singapore/)。
 
 测试证明了这组素材的可用性；极端竖图、重要主体紧贴边缘、无法精简的超长名称仍需单独处理，不承诺自动适配。
+
+## 标题字重修正
+
+可变标题统一为中文IBM Plex Sans SC Medium 500 / 英文Chakra Petch SemiBold 600，包括默认华秋样例。真实字体文件随包附带，导出检查记录字重。字重改变后重新检查实际宽度。

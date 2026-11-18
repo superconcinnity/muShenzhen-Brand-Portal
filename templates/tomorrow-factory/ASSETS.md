@@ -9,3 +9,5 @@
 视觉素材使用条件见仓库 USAGE.md；字体和照片分别遵循自身授权。不要将模板发布理解为活动确认或官方合作背书。
 
 其他工厂的测试来源与适配结论见 TESTING.md；网上测试照片和成品不随公开模板包分发。
+
+标题字重更新：中文使用 IBMPlexSansSC-Medium.woff2，来自 IBM 官方仓库 https://github.com/IBM/plex/blob/master/packages/plex-sans-sc/fonts/complete/woff2/hinted/IBMPlexSansSC-Medium.woff2 ，许可见 IBMPlexSansSC-OFL.txt。英文使用 ChakraPetch-SemiBold.ttf，来自本地已安装的 Chakra Petch 字体，许可见 ChakraPetch-OFL.txt。旧Regular/Bold文件仅为历史资产，不用于当前可变标题。

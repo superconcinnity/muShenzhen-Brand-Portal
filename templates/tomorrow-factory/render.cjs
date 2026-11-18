@@ -27,14 +27,14 @@ const runAt=new Date().toISOString();
   svg=svg.replace(/<path d="M3509\.56 -67\.5625[^"]*" fill="url\(#pattern0_1200_201\)"\/>/, '<path d="M2632 0H440V1760H2632V0Z" fill="url(#pattern0_1200_201)"/>');
  }
  const {background,foreground}=themes[config.theme];svg=svg.replaceAll('#795E4B',background).replaceAll('#DFFF2F',foreground);
- const defaults={titleZh:'华秋电子-江门制造工厂',titleEn:'HUAQIU ELECTRONICS'};
- // Default outlined titles are preserved exactly. Replacements use local brand fonts.
- const fontZh=fs.readFileSync(path.join(root,'assets/Plex-Regular.woff2')).toString('base64');
- const fontEn=fs.readFileSync(path.join(root,'assets/ChakraPetch-Regular.ttf')).toString('base64');
- svg=svg.replace('<defs>',`<defs><style>@font-face{font-family:Plex;src:url(data:font/woff2;base64,${fontZh})} @font-face{font-family:Chakra;src:url(data:font/ttf;base64,${fontEn})}</style>`);
- const fields=[{key:'titleZh',id:'title-zh',x:110,y:2380,family:'Plex'},{key:'titleEn',id:'title-en',x:110,y:2600,family:'Chakra'}];
- for(const f of fields)if(config[f.key]!==defaults[f.key]){
-  const tag=`<g id="${f.id}"><text x="${f.x}" y="${f.y}" fill="${foreground}" font-family="${f.family}" font-size="200" font-weight="400" style="white-space:pre">${escape(config[f.key])}</text></g>`;
+ // All variable titles use the confirmed real font weights, including the default sample.
+
+ const fontZh=fs.readFileSync(path.join(root,'assets/IBMPlexSansSC-Medium.woff2')).toString('base64');
+ const fontEn=fs.readFileSync(path.join(root,'assets/ChakraPetch-SemiBold.ttf')).toString('base64');
+ svg=svg.replace('<defs>',`<defs><style>@font-face{font-family:Plex;font-weight:500;src:url(data:font/woff2;base64,${fontZh})} @font-face{font-family:Chakra;font-weight:600;src:url(data:font/ttf;base64,${fontEn})}</style>`);
+ const fields=[{key:'titleZh',id:'title-zh',x:110,y:2380,family:'Plex',weight:500},{key:'titleEn',id:'title-en',x:110,y:2600,family:'Chakra',weight:600}];
+ for(const f of fields){
+  const tag=`<g id="${f.id}"><text x="${f.x}" y="${f.y}" fill="${foreground}" font-family="${f.family}" font-size="200" font-weight="${f.weight}" style="white-space:pre">${escape(config[f.key])}</text></g>`;
   svg=svg.replace(new RegExp(`<g id="${f.id}">[\\s\\S]*?</g>`),tag);
  }
  fs.mkdirSync(output,{recursive:true});
@@ -44,9 +44,9 @@ const runAt=new Date().toISOString();
  const browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{})});
  try{
   const page=await browser.newPage({viewport:{width:2632,height:3509},deviceScaleFactor:1});
-  await page.goto(pathToFileURL(htmlPath).href);await page.evaluate(async()=>{await Promise.all([document.fonts.load('400 200px Plex'),document.fonts.load('400 200px Chakra')]);await document.fonts.ready;if(!document.fonts.check('400 200px Plex')||!document.fonts.check('400 200px Chakra'))throw Error('品牌字体加载失败');await Promise.all([...document.querySelectorAll('svg image')].map(el=>new Promise((resolve,reject)=>{const i=new Image();i.onload=resolve;i.onerror=()=>reject(Error('图片加载失败'));i.src=el.getAttributeNS('http://www.w3.org/1999/xlink','href')})))});
+  await page.goto(pathToFileURL(htmlPath).href);await page.evaluate(async()=>{await Promise.all([document.fonts.load('500 200px Plex'),document.fonts.load('600 200px Chakra')]);await document.fonts.ready;if(!document.fonts.check('500 200px Plex')||!document.fonts.check('600 200px Chakra'))throw Error('品牌字体加载失败');await Promise.all([...document.querySelectorAll('svg image')].map(el=>new Promise((resolve,reject)=>{const i=new Image();i.onload=resolve;i.onerror=()=>reject(Error('图片加载失败'));i.src=el.getAttributeNS('http://www.w3.org/1999/xlink','href')})))});
   const checks=await page.evaluate(()=>({titles:['title-zh','title-en'].map(id=>{const group=document.getElementById(id),text=group.querySelector('text');let b=group.getBBox();if(text){const style=getComputedStyle(text),ctx=document.createElement('canvas').getContext('2d');ctx.font=style.font;const m=ctx.measureText(text.textContent);b={x:Number(text.getAttribute('x'))-m.actualBoundingBoxLeft,y:Number(text.getAttribute('y'))-m.actualBoundingBoxAscent,width:m.actualBoundingBoxLeft+m.actualBoundingBoxRight,height:m.actualBoundingBoxAscent+m.actualBoundingBoxDescent};}return{id,x:b.x,y:b.y,width:b.width,height:b.height,pass:b.x>=100&&b.x+b.width<=2400&&b.y>=2180&&b.y+b.height<=2640}})}));
-  checks.status='passed';checks.runAt=runAt;checks.fonts=true;checks.theme=config.theme;checks.canvas={width:2632,height:3509};checks.image={width:photoWidth,height:photoHeight,fit:'cover',position:config.image.position||'centre',framing};
+  checks.status='passed';checks.runAt=runAt;checks.fonts={titleZh:{family:'IBM Plex Sans SC',weight:500},titleEn:{family:'Chakra Petch',weight:600}};checks.theme=config.theme;checks.canvas={width:2632,height:3509};checks.image={width:photoWidth,height:photoHeight,fit:'cover',position:config.image.position||'centre',framing};
   checks.sourceImage={width:sourceMetadata.width,height:sourceMetadata.height};
   checks.warnings=[];
   if(sourceMetadata.width<photoWidth||sourceMetadata.height<photoHeight)checks.warnings.push('源图需放大，实际清晰度请看高清PNG确认；导出尺寸不等于原图清晰度。');

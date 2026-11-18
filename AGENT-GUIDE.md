@@ -23,7 +23,7 @@
 
 ## 明日出厂 · 工厂参访海报
 
-使用 `templates/tomorrow-factory`，先读该目录 [AGENTS.md](templates/tomorrow-factory/AGENTS.md)、[RULES.md](templates/tomorrow-factory/RULES.md) 与 [README.md](templates/tomorrow-factory/README.md)。可替换照片、工厂中文标题与英文标题，可选棕色 / 蓝色两套配色。“明日出厂 / INSIDE THE FACTORY”属于固定系列标识。新任务复制 content-template.json，优先window取景；原稿样例使用original。完整厂名放在metadata，长标题提炼真实展示文案，保持字号和单行。使用独立JSON导出PNG、SVG和预览，检查主体裁切、标题及本次render-status.json。与其他模板一样，由同事下载后用 Agent 操作，无需网页编辑器。
+使用 `templates/tomorrow-factory`，先读该目录 [AGENTS.md](templates/tomorrow-factory/AGENTS.md)、[RULES.md](templates/tomorrow-factory/RULES.md) 与 [README.md](templates/tomorrow-factory/README.md)。可替换照片、工厂中文标题与英文标题，可选棕色 / 蓝色两套配色。“明日出厂 / INSIDE THE FACTORY”属于固定系列标识。新任务复制 content-template.json，优先window取景；原稿样例使用original。完整厂名放在metadata，长标题提炼真实展示文案，保持200px及单行，中文IBM Plex Sans SC Medium 500，英文Chakra Petch SemiBold 600。使用独立JSON导出PNG、SVG和预览，检查主体裁切、标题及本次render-status.json。与其他模板一样，由同事下载后用 Agent 操作，无需网页编辑器。
 
 ## 数据状态
 
