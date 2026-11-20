@@ -1,8 +1,22 @@
 {
-  "image": { "src": "assets/sample-photo.webp", "position": "center" },
-  "experiment": { "zh": "机能解码实验", "en": "PERFORMANCE, DECODED" },
-  "description": { "zh": "动静相宜，用脑电读懂运动与恢复。", "en": "Track EEG in motion. Find how you recover." },
-  "project": { "en": "Move & Reset", "zh": "动静之间" },
-  "credit": { "handle": "@NUROMOVA", "tags": ["SPORTS EEG", "RECOVERY", "AI COACH"] },
-  "metadata": { "photoNote": "从用户参考海报中提取并经AI清理的示例照片；非相机原片。", "copyNote": "文案来自用户参考图，仅补充英文句号后的空格。" }
+  "image": {
+    "src": "assets/sample-photo.webp",
+    "position": "center"
+  },
+  "event": {
+    "zh": "机能解码实验",
+    "en": "PERFORMANCE, DECODED"
+  },
+  "description": {
+    "zh": "动静相宜，用脑电读懂运动与恢复。",
+    "en": "Track EEG in motion. Find how you recover."
+  },
+  "organizer": {
+    "zh": "组织机构中文名称",
+    "en": "NUROMOVA"
+  },
+  "metadata": {
+    "photoNote": "由用户参考图经AI清理得到的演示素材，非相机原片。",
+    "copyNote": "活动名与介绍、机构英文名来自参考图；机构中文名为占位文字，需替换为正式名称。"
+  }
 }

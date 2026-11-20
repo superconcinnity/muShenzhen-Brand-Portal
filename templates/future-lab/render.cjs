@@ -9,11 +9,10 @@ const json=x=>JSON.stringify(x).replaceAll('<','\\u003c');
 (async()=>{
  fs.mkdirSync(output,{recursive:true});fs.writeFileSync(path.join(output,'render-status.json'),JSON.stringify({status:'running',runAt}));
  const content=JSON.parse(fs.readFileSync(configPath,'utf8'));
- keys(content,['image','experiment','description','project','credit','metadata'],'配置');
+ keys(content,['image','event','description','organizer','metadata'],'配置');
  keys(content.image,['src','position'],'image');line(content.image.src,'image.src');
  const positions=['center','top','bottom','left','right'];const position=content.image.position===undefined?'center':content.image.position;if(!positions.includes(position))throw Error('image.position只能为center/top/bottom/left/right');content.image.position=position;
- for(const name of ['experiment','description','project']){keys(content[name],['zh','en'],name);for(const lang of ['zh','en'])line(content[name][lang],name+'.'+lang);}
- keys(content.credit,['handle','tags'],'credit');line(content.credit.handle,'credit.handle');if(!Array.isArray(content.credit.tags)||content.credit.tags.length<1||content.credit.tags.length>5)throw Error('credit.tags必须为1–5项文字数组');content.credit.tags.forEach((x,i)=>line(x,'credit.tags['+i+']'));
+ for(const name of ['event','description','organizer']){keys(content[name],['zh','en'],name);for(const lang of ['zh','en'])line(content[name][lang],name+'.'+lang);}
  if(content.metadata!==undefined&&!isObject(content.metadata))throw Error('metadata必须为对象');
  const source=path.resolve(root,content.image.src);if(!fs.existsSync(source)||!fs.statSync(source).isFile())throw Error('图片不存在：'+content.image.src);
  const imageBuffer=await sharp(source).rotate().webp({quality:96}).toBuffer();const meta=await sharp(imageBuffer).metadata();

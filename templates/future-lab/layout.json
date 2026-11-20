@@ -28,13 +28,13 @@
       "width": 680,
       "height": 92
     },
-    "experimentZh": {
+    "eventZh": {
       "x": 400,
       "y": 268,
       "width": 628,
       "height": 80
     },
-    "experimentEn": {
+    "eventEn": {
       "x": 220,
       "y": 344,
       "width": 808,
@@ -52,29 +52,17 @@
       "width": 1000,
       "height": 44
     },
-    "projectEn": {
+    "organizerEn": {
       "x": 44,
       "y": 1104,
       "width": 860,
       "height": 88
     },
-    "projectZh": {
+    "organizerZh": {
       "x": 44,
       "y": 1192,
       "width": 840,
       "height": 88
-    },
-    "creditHandle": {
-      "x": 120,
-      "y": 1304,
-      "width": 840,
-      "height": 40
-    },
-    "creditTags": {
-      "x": 120,
-      "y": 1344,
-      "width": 840,
-      "height": 36
     }
   },
   "decorations": [

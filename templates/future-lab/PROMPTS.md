@@ -1,6 +1,6 @@
 # 给同事Agent的指令
 
-> 下载 https://github.com/superconcinnity/muShenzhen-Brand-Portal ，进入templates/future-lab，先读AGENTS.md与RULES.md。复制content-template.json，用我提供的照片和项目资料制作未来实验海报。实验中文名【…】、英文名【…】，中文介绍【…】、英文介绍【…】，照片上的英文标题【…】、中文标题【…】，账号【…】，标签【…】。保持固定系列标识、颜色和装饰，不加Logo。按固定字号精简长文案，检查照片裁切和文字碰撞，导出PNG、独立HTML、预览及配置。
+> 下载 https://github.com/superconcinnity/muShenzhen-Brand-Portal ，进入templates/future-lab，先读AGENTS.md与RULES.md。复制content-template.json，仅替换7项内容：活动名称中文【…】、活动名称英文【…】、一句话介绍中文【…】、一句话介绍英文【…】、视觉图【…】、组织机构名称中文【…】、组织机构名称英文【…】。活动名放右上绿色区，机构名放照片白字区（英在上中在下）。保持固定系列标识、颜色与装饰，不加Logo、账号或标签。按固定字号提炼长文案，机构名称保留准确拼写，检查裁切与文字碰撞，导出PNG、独立HTML、预览及配置。
 
 > 这张照片的重要人物被裁掉了，请根据原图调整position；保留图片比例和固定版式，不直接改动人物。
 

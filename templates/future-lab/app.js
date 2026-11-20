@@ -1,7 +1,7 @@
 const {content,layout,symbols}=window.POSTER_DATA;
 const poster=document.querySelector('.poster'),stage=document.querySelector('.stage');
 for(const [key,value] of Object.entries(layout.colors))poster.style.setProperty('--'+key,value);
-const fields={experimentZh:content.experiment.zh,experimentEn:content.experiment.en,descriptionZh:content.description.zh,descriptionEn:content.description.en,projectEn:content.project.en,projectZh:content.project.zh,creditHandle:content.credit.handle,creditTags:content.credit.tags.join(' · ')};
+const fields={eventZh:content.event.zh,eventEn:content.event.en,descriptionZh:content.description.zh,descriptionEn:content.description.en,organizerZh:content.organizer.zh,organizerEn:content.organizer.en};
 for(const [name,box] of Object.entries(layout.fields)){const node=document.querySelector('.'+name);Object.assign(node.style,{left:box.x+'px',top:box.y+'px',width:box.width+'px',height:box.height+'px'});if(name in fields)node.firstElementChild.textContent=fields[name];}
 for(const node of document.querySelectorAll('.photo,.shade')){const b=layout.photo;Object.assign(node.style,{left:b.x+'px',top:b.y+'px',width:b.width+'px',height:b.height+'px'});}
 const image=document.querySelector('.photo img');image.src=content.image.src;image.style.objectPosition=content.image.position||'center';

@@ -77,11 +77,11 @@ a city for makers
 
 <a href="templates/tomorrow-factory/examples/brown-preview.png"><img src="templates/tomorrow-factory/examples/brown-preview.png" width="300" alt="明日出厂棕色版"></a> <a href="templates/tomorrow-factory/examples/blue-preview.png"><img src="templates/tomorrow-factory/examples/blue-preview.png" width="300" alt="明日出厂蓝色版"></a>
 
-## 未来实验 · 项目海报模板
+## 未来实验 · 活动海报模板
 
 [使用说明](templates/future-lab/README.md) · [Agent规则](templates/future-lab/AGENTS.md) · [版式规则](templates/future-lab/RULES.md) · [指令示例](templates/future-lab/PROMPTS.md)
 
-替换照片、实验名称、中英文介绍、项目标题、账号与短标签，保留固定系列标识和品牌装饰。附本地字体、配置、默认演示素材与渲染脚本，导出PNG、独立HTML及预览。参考图中的项目Logo已忽略；默认照片为AI清理的演示素材，正式制作可直接替换原图。
+替换视觉图、活动中英文名称、中英文一句话介绍和组织机构中英文名称，共7项内容，保留固定系列标识和品牌装饰。附本地字体、配置、默认演示素材与渲染脚本，导出PNG、独立HTML及预览。参考图中的项目Logo已忽略；默认照片为AI清理的演示素材，正式制作可直接替换原图。
 
 <a href="templates/future-lab/examples/default-preview.png"><img src="templates/future-lab/examples/default-preview.png" width="324" alt="未来实验海报模板"></a>
 
@@ -134,6 +134,6 @@ a city for makers
 
 **视觉元素和模板允许商用，必须注明 mushenzhen。**可在作品页脚、随图发布文案或网页 credits 中署名；具体建议见 [使用说明](USAGE.md)。Logo 遵循品牌指南，不因使用素材而暗示官方背书。
 
-本仓库含 Photo Studio 源码，以及日历、City Maker 人物海报、Future, Unboxed 产品海报、明日出厂工厂参访海报和未来实验项目海报模板；模板附所用字体与 SIL OFL 许可；软件代码许可尚未指定。海报包含的照片与第三方素材不自动适用视觉元素与模板的授权。尚未指定标准公开许可证，使用要求以 USAGE.md 为准。
+本仓库含 Photo Studio 源码，以及日历、City Maker 人物海报、Future, Unboxed 产品海报、明日出厂工厂参访海报和未来实验活动海报模板；模板附所用字体与 SIL OFL 许可；软件代码许可尚未指定。海报包含的照片与第三方素材不自动适用视觉元素与模板的授权。尚未指定标准公开许可证，使用要求以 USAGE.md 为准。
 
 品牌包版本 0.1。日历模板附本届日程初稿，不构成活动确认承诺，请向主办方核对。

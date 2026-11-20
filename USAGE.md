@@ -27,4 +27,4 @@ Future, Unboxed 产品海报位于 templates/future-unboxed；附用户提供的
 
 明日出厂海报模板位于 templates/tomorrow-factory，附用户设计稿提取的工厂照片及两套配色。照片不自动适用品牌视觉素材授权；字体许可随包附带。
 
-未来实验项目海报位于 templates/future-lab。默认照片由用户参考图经AI清理叠字和Logo得到，作为版式演示，不代表未修改摄影原片；正式制作优先替换独立原图。
+未来实验活动海报位于 templates/future-lab。默认照片由用户参考图经AI清理叠字和Logo得到，作为版式演示，不代表未修改摄影原片；正式制作优先替换独立原图。

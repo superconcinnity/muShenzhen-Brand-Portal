@@ -6,4 +6,4 @@
 - ChakraPetch-Medium.ttf、ChakraPetch-SemiBold.ttf：来自用户本机已安装的Chakra Petch字体，许可见ChakraPetch-OFL.txt。
 - examples/default-preview.png、grid-preview.png：当前模板生成的预览。
 
-原文案来自用户参考图，英文句号后补了空格。参考图片未用于推导产品事实或活动确认。品牌使用要求见仓库USAGE.md；字体与照片按各自授权处理。
+活动示例文案和机构英文名来自用户参考图，英文句号后补了空格；机构中文名为占位文字，不是编造的正式译名。参考图片未用于推导产品事实或活动确认。品牌使用要求见仓库USAGE.md；字体与照片按各自授权处理。
