@@ -1,0 +1,8 @@
+{
+  "name": "mushenzhen-future-lab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "setup": "playwright install chromium", "render": "node render.cjs" },
+  "dependencies": { "playwright": "1.58.2", "sharp": "0.35.5" },
+  "engines": { "node": ">=20.9.0" }
+}

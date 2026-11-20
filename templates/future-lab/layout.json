@@ -1,0 +1,147 @@
+{
+  "width": 1080,
+  "height": 1440,
+  "unit": 4,
+  "colors": {
+    "background": "#212121",
+    "green": "#DFFF2F",
+    "blue": "#00B3FA",
+    "muted": "#ACC0BF",
+    "white": "#FFFFFF"
+  },
+  "photo": {
+    "x": 0,
+    "y": 548,
+    "width": 1080,
+    "height": 840
+  },
+  "fields": {
+    "seriesZh": {
+      "x": 36,
+      "y": 16,
+      "width": 680,
+      "height": 104
+    },
+    "seriesEn": {
+      "x": 36,
+      "y": 120,
+      "width": 680,
+      "height": 92
+    },
+    "experimentZh": {
+      "x": 400,
+      "y": 268,
+      "width": 628,
+      "height": 80
+    },
+    "experimentEn": {
+      "x": 220,
+      "y": 344,
+      "width": 808,
+      "height": 52
+    },
+    "descriptionZh": {
+      "x": 40,
+      "y": 428,
+      "width": 1000,
+      "height": 48
+    },
+    "descriptionEn": {
+      "x": 40,
+      "y": 476,
+      "width": 1000,
+      "height": 44
+    },
+    "projectEn": {
+      "x": 44,
+      "y": 1104,
+      "width": 860,
+      "height": 88
+    },
+    "projectZh": {
+      "x": 44,
+      "y": 1192,
+      "width": 840,
+      "height": 88
+    },
+    "creditHandle": {
+      "x": 120,
+      "y": 1304,
+      "width": 840,
+      "height": 40
+    },
+    "creditTags": {
+      "x": 120,
+      "y": 1344,
+      "width": 840,
+      "height": 36
+    }
+  },
+  "decorations": [
+    {
+      "x": 964,
+      "y": 44,
+      "color": "blue"
+    },
+    {
+      "x": 1000,
+      "y": 80,
+      "color": "blue"
+    },
+    {
+      "x": 780,
+      "y": 76,
+      "color": "green",
+      "symbol": "slash"
+    },
+    {
+      "x": 36,
+      "y": 236,
+      "color": "blue",
+      "symbol": "hourglass"
+    },
+    {
+      "x": 964,
+      "y": 220,
+      "color": "green",
+      "symbol": "hourglass"
+    },
+    {
+      "x": 72,
+      "y": 360,
+      "color": "muted"
+    },
+    {
+      "x": 36,
+      "y": 888,
+      "color": "green"
+    },
+    {
+      "x": 0,
+      "y": 924,
+      "color": "green"
+    },
+    {
+      "x": 1044,
+      "y": 892,
+      "color": "green"
+    },
+    {
+      "x": 932,
+      "y": 1196,
+      "color": "green",
+      "symbol": "hourglass"
+    },
+    {
+      "x": 860,
+      "y": 1316,
+      "color": "muted"
+    },
+    {
+      "x": 896,
+      "y": 1352,
+      "color": "green",
+      "symbol": "slash"
+    }
+  ]
+}

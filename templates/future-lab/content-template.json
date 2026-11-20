@@ -1,0 +1,8 @@
+{
+  "image": { "src": "assets/sample-photo.webp", "position": "center" },
+  "experiment": { "zh": "实验中文名称", "en": "EXPERIMENT NAME" },
+  "description": { "zh": "用一句话说明本次实验的内容。", "en": "Describe the experiment in one clear sentence." },
+  "project": { "en": "Project Title", "zh": "项目中文标题" },
+  "credit": { "handle": "@YOURPROJECT", "tags": ["EXPERIMENT", "INTERACTION"] },
+  "metadata": { "photoSource": "正式制作时替换为自有照片，记录来源。", "copySource": "按用户提供的真实项目资料填写。" }
+}

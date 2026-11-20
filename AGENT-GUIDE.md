@@ -25,6 +25,10 @@
 
 使用 `templates/tomorrow-factory`，先读该目录 [AGENTS.md](templates/tomorrow-factory/AGENTS.md)、[RULES.md](templates/tomorrow-factory/RULES.md) 与 [README.md](templates/tomorrow-factory/README.md)。可替换照片、工厂中文标题与英文标题，可选棕色 / 蓝色两套配色。“明日出厂 / INSIDE THE FACTORY”属于固定系列标识。新任务复制 content-template.json，优先window取景；原稿样例使用original。完整厂名放在metadata，长标题提炼真实展示文案，保持200px及单行，中文IBM Plex Sans SC Medium 500，英文Chakra Petch SemiBold 600。使用独立JSON导出PNG、SVG和预览，检查主体裁切、标题及本次render-status.json。与其他模板一样，由同事下载后用 Agent 操作，无需网页编辑器。
 
+## 未来实验 · 项目海报
+
+使用 `templates/future-lab`，先读 [AGENTS.md](templates/future-lab/AGENTS.md)、[RULES.md](templates/future-lab/RULES.md) 和 [README.md](templates/future-lab/README.md)。复制独立配置，替换图片、实验名称、介绍、项目标题、账号及标签；保持固定系列标题、装饰与网址，不添加参考图中的项目Logo。默认演示图片经AI清理，正式制作使用用户原图。固定字号、单行和碰撞检查由模板实现，程序通过后仍需看图。导出PNG、独立HTML和预览，不承诺完整SVG海报。
+
 ## 数据状态
 
 - confirmed：品牌方明确确认的内容。
