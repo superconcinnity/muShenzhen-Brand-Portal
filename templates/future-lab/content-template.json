@@ -1,7 +1,6 @@
 {
   "image": {
-    "src": "assets/sample-photo.webp",
-    "position": "center"
+    "src": "assets/sample-photo.webp"
   },
   "event": {
     "zh": "活动名称中文",
@@ -14,9 +13,5 @@
   "organizer": {
     "zh": "活动组织机构中文名称",
     "en": "ORGANIZER NAME"
-  },
-  "metadata": {
-    "photoSource": "正式使用时替换独立原图。",
-    "copySource": "使用真实活动信息和组织机构正式名称。"
   }
 }

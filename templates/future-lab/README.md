@@ -1,12 +1,35 @@
-# 未来实验 / FUTURE LAB 模板
+# 未来实验 / FUTURE LAB 活动海报
 
-下载后让 Agent 用独立配置替换视觉图、活动名称、介绍和组织机构名称，生成参考版式的活动海报。固定“未来实验 / FUTURE LAB”、品牌装饰和底部网址色带，忽略参考图照片右上角的Logo。
+把下面七项资料和原图交给同事的Agent，即可按固定版式出图。活动名在右上绿色区，组织机构名在照片白字区（英文在上、中文在下）。
 
-[Agent 规则](AGENTS.md) · [版式规则](RULES.md) · [指令示例](PROMPTS.md) · [素材说明](ASSETS.md)
+## 给使用者：提供七项内容
 
-![默认预览](examples/default-preview.png)
+复制下面这段，填好后连同图片一起发给Agent：
 
-## 下载与运行
+```text
+请下载以下仓库，使用 templates/future-lab 模板制作海报。
+https://github.com/superconcinnity/muShenzhen-Brand-Portal
+活动名称中文：
+活动名称英文：
+一句话介绍中文：
+一句话介绍英文：
+视觉图：见附件原图
+活动组织机构名称中文：
+活动组织机构名称英文：
+
+活动名和介绍的英文如留空，请根据中文译写；机构名称缺少确认版本时请指出。
+请检查裁切、文字长度和机构名称，交付高清PNG和预览。
+```
+
+活动名和介绍的英文可请Agent根据中文译写；机构名称请提供确认过的正式名称或简称。无需另交Logo、账号、标签，也无需自己编辑JSON。
+
+[可复制的完整指令](PROMPTS.md) · [Agent规则](AGENTS.md) · [版式规则](RULES.md) · [素材说明](ASSETS.md)
+
+![版式示例，机构中文名为占位文字](examples/default-preview.png)
+
+上图仅作版式示例：机构中文为占位文字，照片经过AI清理。正式活动应使用真实资料和独立原图。网页预览用于看图和切换辅助网格；新资料交给Agent处理。
+
+## 给Agent：安装与导出
 
 ```sh
 git clone https://github.com/superconcinnity/muShenzhen-Brand-Portal.git
@@ -16,49 +39,48 @@ npm run setup
 npm run render
 ```
 
-需要 Node.js 20.9+、npm。首次下载依赖及 Chromium 需要联网。如果浏览器下载较慢，可直接指定本机 Chrome，例如 macOS：
+需要Node.js 20.9+、npm。首次安装需要联网。若Chromium下载不顺利，可使用本机Chrome，例如macOS：
 
 ```sh
 CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" npm run render
 ```
 
-默认输出在 `output/content/`。画布1080 × 1440，PNG默认以2倍尺寸2160 × 2880导出。
+### 填写独立配置
 
-## 替换内容
+复制`content-template.json`为`my-event.json`，将原图放进`assets/`，填写七项内容：
 
-复制 `content-template.json` 为新配置，把原图放在 `assets/`，再填写：
-
-| 字段 | 内容 |
+| 字段 | 对应内容 |
 | --- | --- |
-| image.src | 相对此模板目录的图片路径 |
-| image.position | center、top、bottom、left、right；默认center |
-| event.zh / en | 活动名称中文 / 英文，对应右上绿色标题 |
-| description.zh / en | 一句话介绍中文 / 英文，对应照片上方介绍 |
-| organizer.zh / en | 活动组织机构中文 / 英文名称，对应照片上的白字，英文在上、中文在下 |
-| metadata | 可选来源或备注对象，不显示在海报上 |
-
-业务内容只有7项：活动中英文名称、一句话中英文介绍、视觉图、组织机构中英文名称。image.position是可选裁切设置，metadata是可选制作记录，均不增加文案必填项。原账号、标签、第二组项目标题不再作为输入。
+| event.zh | 活动名称中文 |
+| event.en | 活动名称英文 |
+| description.zh | 一句话介绍中文 |
+| description.en | 一句话介绍英文 |
+| image.src | 视觉图路径 |
+| organizer.zh | 活动组织机构名称中文 |
+| organizer.en | 活动组织机构名称英文 |
 
 ```sh
 node render.cjs my-event.json exports/my-event
 ```
 
-图片路径相对此模板目录，配置和输出路径相对当前终端目录；含空格的命令参数需加引号。独立导出不覆盖默认配置。
+图片路径相对此模板目录；命令中的配置和输出路径相对当前终端目录。含空格的参数需加引号。默认示例在`output/content/`，独立活动放在各自输出目录。
 
-活动名称显示在右上绿色标题区；组织机构名称显示在照片白字区。所有文案保持固定字号与单行。超宽、碰到装饰或字段拼写错误会报错；先提炼关键内容，再重新导出。不能靠缩字或强制换行掩盖溢出。
+image.position是可选裁切设置：center（默认）、top、bottom、left、right。metadata可选，用于记录来源，不显示在画面上。启动配置只包含七项业务内容。
 
-照片等比cover填满图片区，上方保留清晰主体，下方逐渐融入深色背景。要检查人物头部、手部或产品有没有被裁切；位置不合适时调整position或更换余量更足的原图。导出像素数不等于原图清晰度。
+### 遇到问题时
 
-## 交付文件
+- 缺资料：按报错补齐对应中文或英文字段，不编造机构译名。
+- 文字太长：活动名和介绍可提炼重点；机构名需采用确认过的简称。保持字号与单行。
+- 图片裁切不合适：根据原图调整image.position，或选择余量更足的照片。
+- 有“待确认”提示：查看是否仍有占位文字、演示照片或清晰度问题。排版通过不等于资料已齐备。
+- 导出失败：本次没有新成品，不交付目录内上次的旧图。
 
-- `poster.png`：高清成品；`preview.png`：快速预览。
-- `grid-proof.png` / `grid-preview.png`：带辅助网格的检查图。
-- `poster.html`：嵌入照片、字体和脚本的独立预览，可复制到其他目录打开。
-- `content.json`：本次配置；`validation.json`：字体、文字范围、装饰碰撞及图片提示。
-- `render-status.json`：本次运行时间及状态。只有命令成功、状态为passed时才交付，失败时不可使用目录内的旧PNG。
+### 检查与交付
 
-默认渲染还会更新模板根目录的 `data.js`；之后打开 `index.html` 可查看本地预览和辅助网格。改JSON后需重新渲染，直接刷新HTML不会重新读取配置。
+画布1080 × 1440，默认导出2160 × 2880 PNG。先确认命令成功、本次`render-status.json`为passed，再看`validation.json`和实际图片。
 
-HTML/CSS/JSON是可编辑源，本模板输出PNG和HTML，不提供完整可编辑SVG海报。默认示例照片由用户参考图经AI清理叠字和Logo得到，用于展示版式；正式制作优先提供独立原始照片。图片处理不用于新增或更改活动事实。默认机构英文名沿用参考图，中文名为占位文字，正式制作需填写准确名称。
+交给使用者：`poster.png`（高清成品）和`preview.png`（预览）。`poster.html`可独立打开，配置及源文件按需附上。网格检查图和validation.json用于制作过程。
 
-品牌素材及字体使用条件见[ASSETS.md](ASSETS.md)和仓库[USAGE.md](../../USAGE.md)。随作品说明注明“视觉素材来源：mushenzhen”。
+默认渲染会更新data.js，之后可打开index.html预览。修改JSON后需重新渲染。本模板提供HTML/CSS/JSON编辑源，不输出完整可编辑SVG海报。
+
+品牌使用要求见仓库[USAGE.md](../../USAGE.md)。随发布说明注明“视觉素材来源：mushenzhen”。

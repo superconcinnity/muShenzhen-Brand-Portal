@@ -31,7 +31,9 @@ Plex指IBM Plex Sans SC，Chakra指Chakra Petch。角色分配按这张参考图
 
 ## 出图检查
 
-先读本次render-status.json与validation.json，再看PNG：
+先读本次render-status.json、validation.json及“待确认”提示，再看PNG。passed只表示排版检查通过，占位文字和演示照片仍需补齐或确认。
+
+检查：
 
 1. 活动名称在右上绿色区域靠右，介绍在照片上方靠左；组织机构在照片白字区靠左，英文在中文上方。
 2. 所有文字完整、单行、字号一致，未碰装饰。
