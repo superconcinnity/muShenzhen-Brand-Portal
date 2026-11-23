@@ -1,6 +1,6 @@
 # mushenzhen · a city for makers
 
-活动名称统一写作 **mushenzhen**，slogan 为 **a city for makers**；旧文中的 muShenzhen 已统一。本包不提供年度日程，具体年份和安排请向主办方核对。
+活动名称统一写作 **mushenzhen**，slogan 为 **a city for makers**；旧文中的 muShenzhen 已统一。templates/calendar 附年度日程草稿；具体年份、最新安排与确认状态请向主办方核对。
 
 ## 一句话介绍
 

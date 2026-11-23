@@ -107,6 +107,18 @@
       "status": "recommendation",
       "scope": "creative-extensions",
       "instruction": "Use consistent cell scale, deliberate runs and pauses, an independent element layer and clear negative-space structure. Do not stretch slash widths independently."
+    },
+    {
+      "id": "official-kv-square-grid",
+      "status": "confirmed",
+      "scope": "official-theme-key-visual-extensions",
+      "instruction": "Background blocks and decorative symbols share a square-cell layout grid. Recompose for aspect changes; never scale X/Y independently. Block edges use integer grid coordinates; cross-cell rectangular runs are allowed. See assets/key-visuals/system/README.md."
+    },
+    {
+      "id": "official-kv-theme-family",
+      "status": "confirmed",
+      "scope": "official-theme-key-visual-extensions",
+      "instruction": "Use the corresponding theme palette and complete symbol family. Machine-readable defaults and original geometry windows: assets/key-visuals/system/contract.json. Partner creative exceptions do not redefine official themes."
     }
   ],
   "version": "0.1"

@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "scope": "official-theme-key-visual-extensions",
+  "confirmedByOwner": [
+    "square-grid-for-blocks-and-symbols",
+    "theme-specific-colors-and-symbol-families"
+  ],
+  "grid": {
+    "cellShape": "square",
+    "blockCoordinates": "integer-cell-units",
+    "symbolCoordinates": "integer-cell-units",
+    "resize": "recompose-or-pad-never-nonuniform-scale",
+    "mandatoryColumnCount": null
+  },
+  "themes": {
+    "main": {
+      "accent": "#5456BE",
+      "support": "#ACC0BF",
+      "strip": "../../elements/musz_main_kv.svg",
+      "symbols": [
+        "slash",
+        "hourglass",
+        "shen",
+        "zhen"
+      ]
+    },
+    "machines": {
+      "accent": "#795E4B",
+      "support": "#FAFAED",
+      "strip": "../../elements/musz_machines.svg",
+      "symbols": [
+        "slash",
+        "robot",
+        "ji",
+        "qi"
+      ]
+    },
+    "life": {
+      "accent": "#00B3FA",
+      "support": "#FAFAED",
+      "strip": "../../elements/musz_life.svg",
+      "symbols": [
+        "slash",
+        "life-mark",
+        "sheng",
+        "ming"
+      ]
+    },
+    "intelligence": {
+      "accent": "#E6A0E6",
+      "support": "#FAFAED",
+      "strip": "../../elements/musz_intelligence.svg",
+      "symbols": [
+        "slash",
+        "asterisk",
+        "zhi",
+        "neng"
+      ]
+    }
+  },
+  "sharedColors": {
+    "green": "#DFFF2F",
+    "ink": "#212121",
+    "white": "#FFFFFF",
+    "logo-black": "#000000"
+  },
+  "symbolWindows": [
+    [
+      120,
+      0,
+      84,
+      84
+    ],
+    [
+      212,
+      0,
+      84,
+      84
+    ],
+    [
+      316,
+      0,
+      84,
+      84
+    ],
+    [
+      436,
+      0,
+      84,
+      84
+    ]
+  ],
+  "notes": [
+    "Theme palettes and glyph names are existing-source observations, now explicit defaults for official theme extensions.",
+    "Specific grid counts, density, area ratios and layout examples are implementation choices, not newly confirmed global standards.",
+    "White internal details, frames and clipping in symbol artwork must survive foreground recoloring.",
+    "Partner creative work and named approved templates have separately scoped rules."
+  ]
+}
