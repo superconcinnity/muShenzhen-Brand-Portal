@@ -1,5 +1,7 @@
 # mushenzhen 品牌使用指南
 
+**主视觉比例延展必读：[正方形网格与主题符号规则](assets/key-visuals/system/README.md)**。适用于官方主题主视觉；背景色块与符号共用正方形单元，Logo 内部构造网格另按 Logo 规范。
+
 **mushenzhen · a city for makers**
 
 ## 品牌定位与叙事

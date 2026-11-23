@@ -23,7 +23,7 @@
 
 SVG 画幅为 595 × 842。信息文字保留 SVG text；Logo 和符号为矢量路径；三张主题海报各有一张内嵌图片，不依赖外部图片链接。
 
-需要字体：Chakra Petch（Medium 500、SemiBold 600、Bold 700）、IBM Plex Sans SC（SemiBold 600）、BL Melody Mono（Regular 400）。每张具体依赖见 assets.json。字体文件没有收入本包。
+需要字体：Chakra Petch（Medium 500、SemiBold 600、Bold 700）、IBM Plex Sans SC（SemiBold 600）、BL Melody Mono（Regular 400）。每张具体依赖见 assets.json。本静态目录未附字体；templates/ 的部分模板附带 Chakra Petch 与 IBM Plex Sans SC 及许可，按各自文件核对。BL Melody Mono 不保证随包可用。
 
 先安装匹配字体，再在 Illustrator 中以“打开”方式载入 SVG。不同软件可能重新计算字距，编辑后应对照 PNG。未进行 Illustrator 实机验证。浏览器预览不一定自动加载本机字体；需要一致外观时使用 PNG。
 

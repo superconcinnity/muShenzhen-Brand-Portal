@@ -1,5 +1,7 @@
 # Agent 使用说明
 
+**主视觉比例延展必读：[正方形网格与主题符号规则](assets/key-visuals/system/README.md)**。适用于官方主题主视觉；背景色块与符号共用正方形单元，Logo 内部构造网格另按 Logo 规范。
+
 按以下顺序读取：[品牌数据](brand.json) → [概念与语言](BRAND-STORY.md) → [使用要求](USAGE.md) → [资产索引](assets.json) → [色板](colors.json) → [规则](rules.json) → [指南](GUIDE.md)。
 
 ## 生成作品
@@ -41,6 +43,6 @@
 
 ## 边界
 
-本包提供矢量素材、静态主视觉与说明，以及 tools/duotone 中的 Photo Studio 工具源码；开发工具前阅读该目录 AGENTS.md 和 README.md。活动日历运营模板位于 templates/calendar，先阅读该目录 AGENTS.md 和 README.md；附 Chakra Petch Bold 及字体许可，支持自然语言驱动 Agent 修改并导出。静态主视觉索引见 assets/key-visuals/static/assets.json（其中路径相对此索引目录）；kind=key-visual、medium=static。动态主视觉和动态 Logo 尚未收录，不得将静态 SVG 当作动画。Frontier Fusion、Future Mobility 等没有收录的 Logo 不可从现有主题改名推造。品牌与项目的真实名称以 brand.json 为准。
+本包提供矢量素材、静态主视觉与说明，以及 tools/duotone 中的 Photo Studio 工具源码；开发工具前阅读该目录 AGENTS.md 和 README.md。活动日历运营模板位于 templates/calendar，先阅读该目录 AGENTS.md 和 README.md；附 Chakra Petch Bold 及字体许可，支持自然语言驱动 Agent 修改并导出。静态主视觉索引见 assets/key-visuals/static/assets.json（其中路径相对此索引目录）；kind=key-visual、medium=static。动态主视觉已收录主品牌 8 秒 GIF，动态 Logo 尚未收录，不得将静态 SVG 当作动画。Frontier Fusion、Future Mobility 等没有收录的 Logo 不可从现有主题改名推造。品牌与项目的真实名称以 brand.json 为准。
 
 标准公开许可证尚未选定，不擅自标为 MIT、CC0 等。使用要求见 USAGE.md；使用素材不代表官方合作或背书。

@@ -463,6 +463,13 @@
       "index": "assets/key-visuals/static/assets.json",
       "readme": "assets/key-visuals/static/README.md",
       "assetCount": 7
+    },
+    {
+      "id": "official-kv-extension-system",
+      "kind": "design-system",
+      "readme": "assets/key-visuals/system/README.md",
+      "contract": "assets/key-visuals/system/contract.json",
+      "composer": "assets/key-visuals/system/compose.py"
     }
   ]
 }
