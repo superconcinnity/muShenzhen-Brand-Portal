@@ -19,7 +19,6 @@
 ```sh
 python3 assets/key-visuals/system/compose.py assets/key-visuals/system/examples/main-square.json --out /tmp/main.svg
 python3 assets/key-visuals/system/compose.py assets/key-visuals/system/examples/main-square.json --verify-svg /tmp/main.svg
-python3 -m unittest discover -s assets/key-visuals/system/tests -v
 ```
 
 配置的 blocks 与 symbols 坐标用**格子单位**，Logo 坐标/宽度用**画布单位**。blocks 可有整数 w/h；symbols 默认 1×1 格，可用整数 span 等比占据 n×n 格（大符号仍沿用同一格网）；颜色只能用本主题角色名，不能直接传另一个主题的 HEX。
@@ -28,7 +27,7 @@ python3 -m unittest discover -s assets/key-visuals/system/tests -v
 
 ## 交付检查与边界
 
-交付配置、SVG、PNG、网格说明、检查结果和实际读过的规则。工具检查整数格点、画幅、主题色/符号族、Logo 资产与等比变换、同色不可见符号（对 span 覆盖的每格做保守检查；复杂跨色背景的局部同色也会拒绝，应改位置/前景色或另做人工可见性审计）。`--verify-svg` 比较实际 SVG 与配置生成结果，避免只检查一份未用于成品的 JSON。
+交付配置、SVG、PNG 与网格说明，查看实际成品后再发布。工具检查整数格点、画幅、主题色/符号族、Logo 资产与等比变换、同色不可见符号（对 span 覆盖的每格做保守检查；复杂跨色背景的局部同色也会拒绝，应改位置/前景色或另做人工可见性审计）。`--verify-svg` 比较实际 SVG 与配置生成结果，避免只检查一份未用于成品的 JSON。
 
 自定义 SVG 不能仅因为有 metadata 就声称通过本工具。文字碰撞、留白、密度、可读性、Logo 对比度和品牌神态仍需看图判断。本工具不是任意 SVG 的完整审计器。例子的列数、颜色面积、密度和排版不是新增的官方固定标准。
 
