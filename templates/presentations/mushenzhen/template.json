@@ -1,0 +1,425 @@
+{
+  "brand": "muShenzhen",
+  "slug": "mushenzhen",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "font": "IBM Plex Sans SC",
+  "layouts": [
+    {
+      "id": "a01",
+      "name": "主品牌封面",
+      "role": "cover",
+      "background": "assets/a01.svg",
+      "backgroundPng": "assets/a01.png",
+      "source": {
+        "file": "musz ppt.ai",
+        "artboard": 1
+      },
+      "fields": [
+        {
+          "key": "title",
+          "default": "标题字标题字标题字",
+          "x": 120,
+          "y": 394.6769978654962,
+          "width": 1680,
+          "height": 183.8149845079496,
+          "fontSize": 148.2378907322174,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "center",
+          "maxCharacters": 10,
+          "maxLines": 1
+        },
+        {
+          "key": "subtitle",
+          "default": "副标题文字辅助文字",
+          "x": 120,
+          "y": 594.1875855531072,
+          "width": 1680,
+          "height": 76.35391664176367,
+          "fontSize": 61.57573922722877,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "center",
+          "maxCharacters": 24,
+          "maxLines": 1
+        }
+      ]
+    },
+    {
+      "id": "a02",
+      "name": "深色内页",
+      "role": "content",
+      "background": "assets/a02.svg",
+      "backgroundPng": "assets/a02.png",
+      "source": {
+        "file": "musz ppt.ai",
+        "artboard": 2
+      },
+      "fields": [
+        {
+          "key": "title",
+          "default": "在这里填写标题",
+          "x": 180,
+          "y": 210,
+          "width": 1560,
+          "height": 105,
+          "fontSize": 76,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "left",
+          "maxCharacters": 16,
+          "maxLines": 1
+        },
+        {
+          "key": "body",
+          "default": "在这里填写主要内容。\n建议每页表达一个主题。\n可替换为图片、图表或案例。",
+          "x": 180,
+          "y": 365,
+          "width": 1560,
+          "height": 360,
+          "fontSize": 48,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "left",
+          "maxCharacters": 100,
+          "maxLines": 5
+        }
+      ]
+    },
+    {
+      "id": "a03",
+      "name": "紫色内页",
+      "role": "content",
+      "background": "assets/a03.svg",
+      "backgroundPng": "assets/a03.png",
+      "source": {
+        "file": "musz ppt.ai",
+        "artboard": 3
+      },
+      "fields": [
+        {
+          "key": "title",
+          "default": "在这里填写标题",
+          "x": 180,
+          "y": 210,
+          "width": 1560,
+          "height": 105,
+          "fontSize": 76,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "left",
+          "maxCharacters": 16,
+          "maxLines": 1
+        },
+        {
+          "key": "body",
+          "default": "在这里填写主要内容。\n建议每页表达一个主题。\n可替换为图片、图表或案例。",
+          "x": 180,
+          "y": 365,
+          "width": 1560,
+          "height": 360,
+          "fontSize": 48,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "left",
+          "maxCharacters": 100,
+          "maxLines": 5
+        }
+      ]
+    },
+    {
+      "id": "a04",
+      "name": "灰绿色内页",
+      "role": "content",
+      "background": "assets/a04.svg",
+      "backgroundPng": "assets/a04.png",
+      "source": {
+        "file": "musz ppt.ai",
+        "artboard": 4
+      },
+      "fields": [
+        {
+          "key": "title",
+          "default": "在这里填写标题",
+          "x": 180,
+          "y": 210,
+          "width": 1560,
+          "height": 105,
+          "fontSize": 76,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#5456BE",
+          "align": "left",
+          "maxCharacters": 16,
+          "maxLines": 1
+        },
+        {
+          "key": "body",
+          "default": "在这里填写主要内容。\n建议每页表达一个主题。\n可替换为图片、图表或案例。",
+          "x": 180,
+          "y": 365,
+          "width": 1560,
+          "height": 360,
+          "fontSize": 48,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#5456BE",
+          "align": "left",
+          "maxCharacters": 100,
+          "maxLines": 5
+        }
+      ]
+    },
+    {
+      "id": "a05",
+      "name": "机器人与硬件周封面",
+      "role": "cover",
+      "background": "assets/a05.svg",
+      "backgroundPng": "assets/a05.png",
+      "source": {
+        "file": "musz ppt.ai",
+        "artboard": 5
+      },
+      "fields": [
+        {
+          "key": "title",
+          "default": "标题字标题字标题字",
+          "x": 120,
+          "y": 394.6769978654962,
+          "width": 1680,
+          "height": 183.8149845079496,
+          "fontSize": 148.2378907322174,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "center",
+          "maxCharacters": 10,
+          "maxLines": 1
+        },
+        {
+          "key": "subtitle",
+          "default": "副标题文字辅助文字",
+          "x": 120,
+          "y": 594.1875855531072,
+          "width": 1680,
+          "height": 76.35391664176367,
+          "fontSize": 61.57573922722877,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "center",
+          "maxCharacters": 24,
+          "maxLines": 1
+        }
+      ]
+    },
+    {
+      "id": "a06",
+      "name": "人工智能周封面",
+      "role": "cover",
+      "background": "assets/a06.svg",
+      "backgroundPng": "assets/a06.png",
+      "source": {
+        "file": "musz ppt.ai",
+        "artboard": 6
+      },
+      "fields": [
+        {
+          "key": "title",
+          "default": "标题字标题字标题字",
+          "x": 120,
+          "y": 394.6769978654962,
+          "width": 1680,
+          "height": 183.8149845079496,
+          "fontSize": 148.2378907322174,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "center",
+          "maxCharacters": 10,
+          "maxLines": 1
+        },
+        {
+          "key": "subtitle",
+          "default": "副标题文字辅助文字",
+          "x": 120,
+          "y": 594.1875855531072,
+          "width": 1680,
+          "height": 76.35391664176367,
+          "fontSize": 61.57573922722877,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "center",
+          "maxCharacters": 24,
+          "maxLines": 1
+        }
+      ]
+    },
+    {
+      "id": "a07",
+      "name": "生命科技周封面",
+      "role": "cover",
+      "background": "assets/a07.svg",
+      "backgroundPng": "assets/a07.png",
+      "source": {
+        "file": "musz ppt.ai",
+        "artboard": 7
+      },
+      "fields": [
+        {
+          "key": "title",
+          "default": "标题字标题字标题字",
+          "x": 120,
+          "y": 394.6769978654962,
+          "width": 1680,
+          "height": 183.8149845079496,
+          "fontSize": 148.2378907322174,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "center",
+          "maxCharacters": 10,
+          "maxLines": 1
+        },
+        {
+          "key": "subtitle",
+          "default": "副标题文字辅助文字",
+          "x": 120,
+          "y": 594.1875855531072,
+          "width": 1680,
+          "height": 76.35391664176367,
+          "fontSize": 61.57573922722877,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "center",
+          "maxCharacters": 24,
+          "maxLines": 1
+        }
+      ]
+    },
+    {
+      "id": "a08",
+      "name": "机器人与硬件周内页",
+      "role": "content",
+      "background": "assets/a08.svg",
+      "backgroundPng": "assets/a08.png",
+      "source": {
+        "file": "musz ppt.ai",
+        "artboard": 8
+      },
+      "fields": [
+        {
+          "key": "title",
+          "default": "在这里填写标题",
+          "x": 320,
+          "y": 210,
+          "width": 1180,
+          "height": 105,
+          "fontSize": 76,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "left",
+          "maxCharacters": 16,
+          "maxLines": 1
+        },
+        {
+          "key": "body",
+          "default": "在这里填写主要内容。\n建议每页表达一个主题。\n可替换为图片、图表或案例。",
+          "x": 320,
+          "y": 365,
+          "width": 1180,
+          "height": 360,
+          "fontSize": 48,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "left",
+          "maxCharacters": 100,
+          "maxLines": 5
+        }
+      ]
+    },
+    {
+      "id": "a09",
+      "name": "人工智能周内页",
+      "role": "content",
+      "background": "assets/a09.svg",
+      "backgroundPng": "assets/a09.png",
+      "source": {
+        "file": "musz ppt.ai",
+        "artboard": 9
+      },
+      "fields": [
+        {
+          "key": "title",
+          "default": "在这里填写标题",
+          "x": 320,
+          "y": 210,
+          "width": 1180,
+          "height": 105,
+          "fontSize": 76,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "left",
+          "maxCharacters": 16,
+          "maxLines": 1
+        },
+        {
+          "key": "body",
+          "default": "在这里填写主要内容。\n建议每页表达一个主题。\n可替换为图片、图表或案例。",
+          "x": 320,
+          "y": 365,
+          "width": 1180,
+          "height": 360,
+          "fontSize": 48,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "left",
+          "maxCharacters": 100,
+          "maxLines": 5
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "生命科技周内页",
+      "role": "content",
+      "background": "assets/a10.svg",
+      "backgroundPng": "assets/a10.png",
+      "source": {
+        "file": "musz ppt.ai",
+        "artboard": 10
+      },
+      "fields": [
+        {
+          "key": "title",
+          "default": "在这里填写标题",
+          "x": 320,
+          "y": 210,
+          "width": 1180,
+          "height": 105,
+          "fontSize": 76,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "left",
+          "maxCharacters": 16,
+          "maxLines": 1
+        },
+        {
+          "key": "body",
+          "default": "在这里填写主要内容。\n建议每页表达一个主题。\n可替换为图片、图表或案例。",
+          "x": 320,
+          "y": 365,
+          "width": 1180,
+          "height": 360,
+          "fontSize": 48,
+          "fontFamily": "IBM Plex Sans SC",
+          "color": "#DFFF2F",
+          "align": "left",
+          "maxCharacters": 100,
+          "maxLines": 5
+        }
+      ]
+    }
+  ],
+  "downloads": {
+    "pptx": "../downloads/mushenzhen.pptx",
+    "htmlAgent": "../downloads/mushenzhen-html-agent.zip"
+  }
+}

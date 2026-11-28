@@ -6,6 +6,14 @@ a city for makers
 
 这里提供 mushenzhen 的标准 Logo、视觉元素、品牌指南与 Agent 可读数据。视觉元素和模板允许商用，**使用时必须提到 mushenzhen**。例如：视觉素材来源：mushenzhen。完整说明见 [USAGE.md](USAGE.md)。
 
+## 品牌演示模板 · PPT / HTML
+
+**[按品牌预览与下载](https://superconcinnity.github.io/muShenzhen-Brand-Portal/templates/presentations/)**
+
+muShenzhen（10 个版式）、Garage（2 个版式）、Human Flourishing（3 个版式）。每套提供可编辑 PPTX、HTML 演示及 Agent 使用包。
+
+[仓库内预览与文件](templates/presentations/README.md) · [Agent 说明](templates/presentations/AGENTS.md)
+
 ## 在线工具
 
 **[Photo Studio 双色素描](https://mushenzhen.xyz/tools/duotone/)** — 上传照片，选择主题配色和元素，调整效果并导出 PNG。

@@ -1,0 +1,151 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Human Flourishing 演示模板</title><style>/* ===========================================
+   FIXED 16:9 STAGE: MANDATORY BASE STYLES
+   Include this ENTIRE file in every presentation.
+   Slides are authored at 1920×1080 and scaled as a whole.
+   =========================================== */
+
+/* 1. Lock the browser viewport */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: var(--stage-bg, #000);
+}
+
+/* 2. Full-window deck viewport */
+.deck-viewport {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    background: var(--stage-bg, #000);
+}
+
+/* 3. Fixed 16:9 design canvas.
+   JavaScript sets transform: translate(...) scale(...). */
+.deck-stage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    transform-origin: 0 0;
+    background: var(--slide-bg, #fff);
+}
+
+/* 4. Slides stack inside the fixed stage.
+   Content must be laid out at 1920×1080, not reflowed per device. */
+.slide {
+    position: absolute;
+    inset: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    background: var(--slide-bg, #fff);
+}
+
+.slide.active,
+.slide.visible {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 1;
+}
+
+/* 5. Keep media inside authored slide bounds */
+img,
+video,
+canvas,
+svg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* 6. Presentation chrome stays outside the slide design system */
+.deck-controls {
+    position: fixed;
+    left: 50%;
+    bottom: 22px;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+/* 7. Print one fixed-size slide per page */
+@media print {
+    html,
+    body {
+        width: 1920px;
+        height: auto;
+        overflow: visible;
+        background: #fff;
+    }
+
+    .deck-viewport {
+        position: static;
+        overflow: visible;
+        background: #fff;
+    }
+
+    .deck-stage {
+        position: static;
+        width: auto;
+        height: auto;
+        transform: none !important;
+        background: none;
+    }
+
+    .slide {
+        position: relative;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        pointer-events: auto !important;
+        width: 1920px;
+        height: 1080px;
+        break-after: page;
+        page-break-after: always;
+    }
+
+    .slide:last-child {
+        break-after: auto;
+        page-break-after: auto;
+    }
+
+    .deck-controls {
+        display: none !important;
+    }
+}
+
+/* 8. Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.2s !important;
+    }
+}
+
+@font-face{font-family:Plex;src:url(fonts/IBMPlexSansSC-Regular.otf)}.field{position:absolute;font-family:Plex,'IBM Plex Sans SC',sans-serif;line-height:1.18;white-space:pre-wrap;overflow:hidden;box-sizing:border-box;outline:none}.field[contenteditable=true]{outline:2px dashed #888;overflow:visible}.brand-bg{position:absolute;width:1920px;height:1080px;max-width:none;max-height:none}.deck-controls{bottom:12px;display:flex;align-items:center;gap:8px;white-space:nowrap;color:white;font:13px system-ui}button,select{font:inherit;padding:8px;border:1px solid #666;border-radius:5px;background:#222;color:white}button{cursor:pointer}button:focus-visible,select:focus-visible{outline:2px solid #dfff2f}@media(max-width:600px){.deck-controls{gap:3px;font-size:10px}button,select{padding:6px 3px}#layout{max-width:90px}}@media print{@page{size:16in 9in;margin:0}.deck-controls{display:none!important}}</style></head><body><main class="deck-viewport"><div class="deck-stage"><section class="slide" data-layout="b01" aria-label="封面"><img class="brand-bg" src="assets/b01.svg" alt=""><div class="field" data-field="title" style="left:120px;top:394.6769978654962px;width:1680px;height:183.8149845079496px;font-size:148.2378907322174px;color:#000000;text-align:center">标题字标题字标题字</div><div class="field" data-field="subtitle" style="left:120px;top:594.1875855531072px;width:1680px;height:76.35391664176367px;font-size:61.57573922722877px;color:#000000;text-align:center">副标题文字辅助文字</div></section><section class="slide" data-layout="b02" aria-label="内页 A"><img class="brand-bg" src="assets/b02.svg" alt=""><div class="field" data-field="title" style="left:320px;top:210px;width:1180px;height:105px;font-size:76px;color:#111111;text-align:left">在这里填写标题</div><div class="field" data-field="body" style="left:320px;top:365px;width:1180px;height:360px;font-size:48px;color:#111111;text-align:left">在这里填写主要内容。
+建议每页表达一个主题。
+可替换为图片、图表或案例。</div></section><section class="slide" data-layout="a12" aria-label="内页 B"><img class="brand-bg" src="assets/a12.svg" alt=""><div class="field" data-field="title" style="left:320px;top:210px;width:1180px;height:105px;font-size:76px;color:#111111;text-align:left">在这里填写标题</div><div class="field" data-field="body" style="left:320px;top:365px;width:1180px;height:360px;font-size:48px;color:#111111;text-align:left">在这里填写主要内容。
+建议每页表达一个主题。
+可替换为图片、图表或案例。</div></section></div></main><nav class="deck-controls" aria-label="演示控制"><button id="prev" aria-label="上一页">←</button><span id="counter"></span><button id="next" aria-label="下一页">→</button><select id="layout" aria-label="选择版式"><option value="0">封面</option><option value="1">内页 A</option><option value="2">内页 B</option></select><button id="edit">编辑文字</button><button id="save">保存 HTML</button><button id="json">导出内容</button></nav><script>const BRAND="human-flourishing";
+let page=0,editing=false;
+const slides=[...document.querySelectorAll('.slide')];
+function show(n){page=Math.max(0,Math.min(slides.length-1,n));slides.forEach((s,i)=>s.classList.toggle('active',i===page));document.querySelector('#counter').textContent=`${page+1} / ${slides.length}`;document.querySelector('#layout').value=page;}
+function resize(){const scale=Math.min(innerWidth/1920,(innerHeight-68)/1080);document.querySelector('.deck-stage').style.transform=`translate(${(innerWidth-1920*scale)/2}px,${(innerHeight-68-1080*scale)/2}px) scale(${scale})`;}
+function edit(){editing=!editing;document.querySelectorAll('[data-field]').forEach(el=>el.contentEditable=editing);document.querySelector('#edit').textContent=editing?'完成编辑':'编辑文字';}
+function download(name,text,type){const url=URL.createObjectURL(new Blob([text],{type}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+function save(){document.querySelectorAll('[data-field]').forEach(el=>el.removeAttribute('contenteditable'));editing=false;document.querySelector('#edit').textContent='编辑文字';download(document.title+'.html','<!doctype html>\n'+document.documentElement.outerHTML,'text/html');}
+function content(){download('content.json',JSON.stringify({brand:BRAND,slides:slides.map(s=>({layout:s.dataset.layout,content:Object.fromEntries([...s.querySelectorAll('[data-field]')].map(el=>[el.dataset.field,el.innerText]))}))},null,2),'application/json');}
+document.querySelector('#prev').onclick=()=>show(page-1);document.querySelector('#next').onclick=()=>show(page+1);document.querySelector('#layout').onchange=e=>show(+e.target.value);document.querySelector('#edit').onclick=edit;document.querySelector('#save').onclick=save;document.querySelector('#json').onclick=content;
+addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key==='s'){e.preventDefault();save();return;}if(e.target.isContentEditable||['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName))return;if(e.key==='ArrowRight'||e.key==='PageDown')show(page+1);if(e.key==='ArrowLeft'||e.key==='PageUp')show(page-1);if(e.key.toLowerCase()==='e')edit();});
+addEventListener('resize',resize);resize();show(0);
+</script></body></html>

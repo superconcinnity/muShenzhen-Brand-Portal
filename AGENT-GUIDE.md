@@ -46,3 +46,7 @@
 本包提供矢量素材、静态主视觉与说明，以及 tools/duotone 中的 Photo Studio 工具源码；开发工具前阅读该目录 AGENTS.md 和 README.md。活动日历运营模板位于 templates/calendar，先阅读该目录 AGENTS.md 和 README.md；附 Chakra Petch Bold 及字体许可，支持自然语言驱动 Agent 修改并导出。静态主视觉索引见 assets/key-visuals/static/assets.json（其中路径相对此索引目录）；kind=key-visual、medium=static。动态主视觉已收录主品牌 8 秒 GIF，动态 Logo 尚未收录，不得将静态 SVG 当作动画。Frontier Fusion、Future Mobility 等没有收录的 Logo 不可从现有主题改名推造。品牌与项目的真实名称以 brand.json 为准。
 
 标准公开许可证尚未选定，不擅自标为 MIT、CC0 等。使用要求见 USAGE.md；使用素材不代表官方合作或背书。
+
+## 品牌演示模板
+
+使用 templates/presentations，先读其 AGENTS.md。按 muShenzhen、Garage、Human Flourishing 选择独立目录。template.json 提供版式与可编辑字段，render.py 从内容 JSON 生成 HTML。下载文件和可视预览见该目录 README.md。

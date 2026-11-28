@@ -1,0 +1,19 @@
+{
+  "brand": "garage",
+  "slides": [
+    {
+      "layout": "b03",
+      "content": {
+        "title": "标题字标题字标题字",
+        "subtitle": "副标题文字辅助文字"
+      }
+    },
+    {
+      "layout": "b04",
+      "content": {
+        "title": "在这里填写标题",
+        "body": "在这里填写主要内容。\n建议每页表达一个主题。\n可替换为图片、图表或案例。"
+      }
+    }
+  ]
+}
