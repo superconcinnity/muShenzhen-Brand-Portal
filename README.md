@@ -8,6 +8,8 @@ a city for makers
 
 ## 品牌演示模板 · PPT / HTML
 
+[![品牌演示模板预览：muShenzhen、Garage、Human Flourishing](assets/previews/presentation-kit.png)](https://superconcinnity.github.io/muShenzhen-Brand-Portal/templates/presentations/)
+
 **[按品牌预览与下载](https://superconcinnity.github.io/muShenzhen-Brand-Portal/templates/presentations/)**
 
 muShenzhen（10 个版式）、Garage（2 个版式）、Human Flourishing（3 个版式）。每套提供可编辑 PPTX、HTML 演示及 Agent 使用包。
@@ -15,6 +17,10 @@ muShenzhen（10 个版式）、Garage（2 个版式）、Human Flourishing（3 �
 [仓库内预览与文件](templates/presentations/README.md) · [Agent 说明](templates/presentations/AGENTS.md)
 
 ## 在线工具
+
+[![Photo Studio 双色素描效果示意](assets/previews/photo-studio.png)](https://mushenzhen.xyz/tools/duotone/)
+
+*海报为效果示意，实际结果随照片和参数变化。*
 
 **[Photo Studio 双色素描](https://mushenzhen.xyz/tools/duotone/)** — 上传照片，选择主题配色和元素，调整效果并导出 PNG。
 
