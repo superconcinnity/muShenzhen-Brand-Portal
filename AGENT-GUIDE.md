@@ -50,3 +50,7 @@
 ## 品牌演示模板
 
 使用 templates/presentations，先读其 AGENTS.md。按 muShenzhen、Garage、Human Flourishing 选择独立目录。template.json 提供版式与可编辑字段，render.py 从内容 JSON 生成 HTML。下载文件和可视预览见该目录 README.md。
+
+## Social Layer 活动封面
+
+进入 [templates/sola-covers](templates/sola-covers/README.md)，先读 [AGENTS.md](templates/sola-covers/AGENTS.md)。按活动单元选择母版，在独立 JSON 中填写图片、双语标题和时段，使用 render.py 导出 PNG 与可编辑 SVG。

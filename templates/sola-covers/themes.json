@@ -1,0 +1,30 @@
+{
+  "main": {
+    "english": "OPENING DAY",
+    "chinese": "开幕日",
+    "panel": "#5456BE",
+    "ink": "#FAFAED",
+    "picture": "assets/art/main.png"
+  },
+  "machines": {
+    "english": "W01 / HARDWARE",
+    "chinese": "硬件周",
+    "panel": "#795E4B",
+    "ink": "#FAFAED",
+    "picture": "assets/art/machines.png"
+  },
+  "life": {
+    "english": "W02 / BIOTECH",
+    "chinese": "生物科技周",
+    "panel": "#00B3FA",
+    "ink": "#212121",
+    "picture": "assets/art/life.png"
+  },
+  "intelligence": {
+    "english": "W03 / AI",
+    "chinese": "AI 周",
+    "panel": "#E6A0E6",
+    "ink": "#212121",
+    "picture": "assets/art/intelligence.png"
+  }
+}
