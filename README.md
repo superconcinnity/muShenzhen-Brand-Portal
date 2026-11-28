@@ -26,6 +26,12 @@ muShenzhen（10 个版式）、Garage（2 个版式）、Human Flourishing（3 �
 
 [源码与开发说明](tools/duotone/README.md) · [云端开发交接](tools/duotone/docs/HANDOFF.md)
 
+## Social Layer 活动封面 · V3
+
+<p><a href="templates/sola-covers/examples/SVG/opening.svg"><img src="templates/sola-covers/examples/PNG/opening.png" width="24%" alt="开幕仪式"></a><a href="templates/sola-covers/examples/SVG/hardware.svg"><img src="templates/sola-covers/examples/PNG/hardware.png" width="24%" alt="硬件周"></a><a href="templates/sola-covers/examples/SVG/biotech.svg"><img src="templates/sola-covers/examples/PNG/biotech.png" width="24%" alt="生物科技周"></a><a href="templates/sola-covers/examples/SVG/ai.svg"><img src="templates/sola-covers/examples/PNG/ai.png" width="24%" alt="AI 周"></a></p>
+
+[四套可编辑 SVG 母版与 PNG 样张](templates/sola-covers/README.md) · [Agent 制作说明](templates/sola-covers/AGENTS.md) · [单场活动配置](templates/sola-covers/content-template.json)。替换图片、双语标题和时段，即可导出 1080 × 1080 的新封面。
+
 ## 活动日历 · Agent 模板
 
 **[日历模板与使用说明](templates/calendar/README.md)** — 下载后用自然语言让 Agent 修改活动、重点日和图片，保持品牌排版，导出 PNG / SVG；无需另建编辑工具。
